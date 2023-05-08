@@ -35,6 +35,7 @@ describe('Managing Portfolio', () => {
     it('Show my information', () => {
       cy.contains('About me').click()
 
+      cy.get('[data-id=photoImage]').should('exist')
       cy.get('[data-id=fullNameLabel]').should('exist')
       cy.get('[data-id=jobLabel]').should('exist')
 
