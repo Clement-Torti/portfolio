@@ -70,6 +70,11 @@
     font-size: 18px;
 }
 
+/* CV */
+.CVContainer {
+    height: 100%;
+}
+
 /* ------------ */
 /* Right column */
 .lifecycleContainer {
