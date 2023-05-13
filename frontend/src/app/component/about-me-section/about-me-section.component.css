@@ -1,0 +1,77 @@
+.mainContainer {
+    padding-top: 70px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/* ------------ */
+/* Left column */
+.infoContainer {
+}
+
+
+/* Header */
+.headerSubContainer {
+    display: flex;
+    flex-direction: wrap;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.headerTitleContainer {
+    margin-left: 20px;
+}
+
+.profilePicture {
+    width: 150px; 
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  }
+
+.fullNameLabel {
+    font-size: 30px;
+}
+
+.jobLabel {
+    color: rgb(96,96,96);
+}
+
+/* Cards */
+
+.cardsContainer {
+    display: flex;
+    flex-direction: wrap; 
+    margin-bottom: 30px;
+}
+
+.cardElement {
+    display: flex;
+    align-items: center;
+    padding: 20px 10px 10px 10px;
+    background-color: white;
+    margin-right: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Description */
+.descriptionLabel {
+    margin-bottom: 30px;
+    max-width: 400px;
+}
+
+/* Prerequisites */
+.vieLabel {
+    font-size: 30px;
+}
+
+.jobPrerequisitesList li {
+    font-size: 18px;
+}
+
+/* ------------ */
+/* Right column */
+.lifecycleContainer {
+}
+

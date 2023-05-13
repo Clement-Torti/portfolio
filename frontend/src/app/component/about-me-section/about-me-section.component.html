@@ -1,23 +1,59 @@
-<h2 data-id="photoImage">Photo</h2>
-<h2 data-id="fullNameLabel">Clément Torti</h2>
-<h2 data-id="jobLabel">
-    Software engineer
-    Fullstack developer
-</h2>
-<h2 data-id="nationalityLabel">French</h2>
-<h2 data-id="ageLabel">24 yo</h2>
-<h2 data-id="drivingLicenseLabel">Driving license</h2>
-<p data-id="descriptionLabel">
-    ”Passionate about computer science, I like to explore 
-    new technologies and collaborate in team. 
-    I would like to join a team of developers working 
-    in agile mode in a dynamic and innovative company.”
-</p>
+<div class="mainContainer" fxLayout="row" fxLayout.lt-md="column">
+    <div class="infoContainer" fxFlex.gt-md="50">
+        <div class="headerSubContainer">
+            <img class="profilePicture" data-id="profilePicture" src="assets/images/profile-picture.jpg"  alt="My Profile Picture">
+            
+            <div class="headerTitleContainer">
+                <h1 class="fullNameLabel" data-id="fullNameLabel">Clément Torti</h1>
+                <h2 class="jobLabel" data-id="jobLabel">
+                  Software engineer <br/>
+                  Fullstack developer
+                </h2>
+            </div>
+        </div>
+      
 
-<ul data-id="jobPrerequisitesList">
-    <h2>Looking for a VIE</h2>
-    <li> One </li>
-    <li> Two </li>
-</ul>
+        <div class="cardsContainer">
+            <div class="cardElement">
+                <h3 data-id="nationalityLabel">French</h3>
+            </div>
 
-<h2 data-id="timelineElement">TimeLine</h2>
+            <div class="cardElement">
+                <h3 data-id="ageLabel">24 yo</h3>
+            </div>
+
+            <div class="cardElement">
+                <h3 data-id="drivingLicenseLabel">Driving license</h3>
+            </div>
+        </div>
+        
+      <p class="descriptionLabel" data-id="descriptionLabel">
+       <i> ”Passionate about computer science, I like to explore 
+        new technologies and collaborate in team. 
+        I would like to join a team of developers working 
+        in agile mode in a dynamic and innovative company.”
+        </i>
+        </p>
+  
+    <div class="prerequisitesContainer">
+        <h1 class="vieLabel"><b>Searching for a VIE</b></h1>
+        <ul class="jobPrerequisitesList" data-id="jobPrerequisitesList">
+            <li> Latinoamerica </li>
+            <li> 1-2 years </li>
+            <li> Available from mid-september </li>
+          </ul>
+    </div>
+      
+    </div>
+  
+    <div class="CVContainer" fxFlex.gt-md="50">
+      <h2 data-id="cvElement">CV</h2>
+      <ngx-extended-pdf-viewer
+      [src]="'assets/pdfs/CV_English.pdf'"
+      [height]="'500px'" 
+      [useBrowserLocale]="true" 
+      [showHandToolButton]="false"
+      ></ngx-extended-pdf-viewer>
+    </div>
+  </div>
+  

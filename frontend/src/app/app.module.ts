@@ -8,10 +8,16 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { MainViewComponent } from './components/main-view/main-view.component';
 import { AboutMeSectionComponent } from './component/about-me-section/about-me-section.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatGridListModule } from '@angular/material/grid-list';
+import { CommonModule } from '@angular/common';
+import { FlexLayoutModule } from '@angular/flex-layout';
+import { MatCardModule } from '@angular/material/card';
+import { NgxExtendedPdfViewerModule } from 'ngx-extended-pdf-viewer';
+ 
 
 @NgModule({
   declarations: [AppComponent, NavbarComponent, MainViewComponent, AboutMeSectionComponent],
-  imports: [BrowserModule, AppRoutingModule, HttpClientModule, BrowserAnimationsModule],
+  imports: [BrowserModule, AppRoutingModule, HttpClientModule, BrowserAnimationsModule, CommonModule, MatGridListModule, FlexLayoutModule, MatCardModule, NgxExtendedPdfViewerModule],
   providers: [],
   bootstrap: [AppComponent],
 })
