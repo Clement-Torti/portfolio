@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-main-view',
@@ -7,9 +6,11 @@ import { Router } from '@angular/router';
   styleUrls: ['./main-view.component.css']
 })
 export class MainViewComponent {
-  url = '';
+  currentSection = 'aboutMe';
 
-  constructor(private router: Router) { 
-    this.url = router.url;
+
+  handleSectionClick(section: string) {
+    this.currentSection = section;
+    document.querySelector('#' + section)?.scrollIntoView({ behavior: 'smooth' });
   }
 }

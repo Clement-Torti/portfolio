@@ -1,11 +1,36 @@
 <nav>
-    <ul>
-      <li><a [routerLink]="['/aboutMe']" routerLinkActive="defineClass']">About me</a></li>
-      <li><a [routerLink]="['/education']" routerLinkActive="defineClass']">Education</a></li>
-      <li><a [routerLink]="['/projects']" routerLinkActive="defineClass']">Projects</a></li>
-      <li><a [routerLink]="['/profesionalExperience']" routerLinkActive="defineClass']">Profesional experience</a></li>
-      <li><a [routerLink]="['/hobbies']" routerLinkActive="defineClass']">Hobbies</a></li>
-      <li><a [routerLink]="['/contact']" routerLinkActive="defineClass']">Contact</a></li>
-    </ul>
+  <img class="profilePicture" data-id="profilePicture" src="assets/images/profile-picture.jpg"  alt="My Profile Picture">
+
+  <ul>
+    <li>
+      <button (click)="scrollToSection('aboutMe')"
+      [ngClass]="{'selected': currentSection === 'aboutMe'}" >
+      About me</button>
+    </li>
+    <li>
+      <button (click)="scrollToSection('education')"
+      [ngClass]="{'selected': currentSection === 'education'}"
+      >Education</button>
+    </li>
+    <li>
+      <button (click)="scrollToSection('projects')"
+      [ngClass]="{'selected': currentSection === 'projects'}"
+      >Projects</button>
+    </li>
+    <li>
+      <button (click)="scrollToSection('professionalExperience')"
+      [ngClass]="{'selected': currentSection === 'professionalExperience'}"
+      >Professional experience</button>
+    </li>
+    <li>
+      <button (click)="scrollToSection('hobbies')"
+      [ngClass]="{'selected': currentSection === 'hobbies'}"
+      >Hobbies</button>
+    </li>
+    <li>
+      <button (click)="scrollToSection('contact')"
+      [ngClass]="{'selected': currentSection === 'contact'}"
+      >Contact</button>
+    </li>
+  </ul>
 </nav>
-  

@@ -19,8 +19,8 @@ describe('Managing Portfolio', () => {
       cy.contains('Projects').click()
       cy.url().should('include', '/projects')
 
-      cy.contains('Profesional experience').click()
-      cy.url().should('include', '/profesionalExperience')
+      cy.contains('Professional experience').click()
+      cy.url().should('include', '/professionalExperience')
 
       cy.contains('Hobbies').click()
       cy.url().should('include', '/hobbies')
