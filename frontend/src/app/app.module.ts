@@ -18,11 +18,34 @@ import { ProfessionalExperienceSectionComponent } from './components/professiona
 import { HobbiesSectionComponent } from './components/hobbies-section/hobbies-section.component';
 import { ContactSectionComponent } from './components/contact-section/contact-section.component';
 import { ProjectsSectionComponent } from './components/projects-section/projects-section.component';
- 
+import { ModuleCardComponent } from './components/module-card/module-card.component';
+import { MatDividerModule } from '@angular/material/divider';
+import { MatButtonToggleModule } from '@angular/material/button-toggle';
+import { SchoolCardComponent } from './components/school-card/school-card.component';
 
 @NgModule({
-  declarations: [AppComponent, NavbarComponent, MainViewComponent, AboutMeSectionComponent, EducationSectionComponent, ProfessionalExperienceSectionComponent, HobbiesSectionComponent, ContactSectionComponent, ProjectsSectionComponent],
-  imports: [BrowserModule, AppRoutingModule, HttpClientModule, BrowserAnimationsModule, CommonModule, MatGridListModule, FlexLayoutModule, MatCardModule, NgxExtendedPdfViewerModule],
+  declarations: [AppComponent, 
+    NavbarComponent, 
+    MainViewComponent, 
+    AboutMeSectionComponent, 
+    EducationSectionComponent, 
+    ProfessionalExperienceSectionComponent, 
+    HobbiesSectionComponent, 
+    ContactSectionComponent, 
+    ProjectsSectionComponent,
+    ModuleCardComponent,
+    SchoolCardComponent],
+  imports: [BrowserModule, 
+    AppRoutingModule, 
+    HttpClientModule, 
+    BrowserAnimationsModule, 
+    CommonModule, 
+    MatGridListModule, 
+    FlexLayoutModule, 
+    MatCardModule, 
+    NgxExtendedPdfViewerModule,
+    MatDividerModule,
+    MatButtonToggleModule],
   providers: [],
   bootstrap: [AppComponent],
 })

@@ -4,8 +4,16 @@
         <b>
             Modules studied
         </b>
-     </h1>
-      
+    </h1>
+    <mat-button-toggle-group (change)="onCategoryChange($event)"  aria-label="Font Style">
+        <mat-button-toggle *ngFor="let category of moduleCatergoryValues()" [value]="category" >
+            {{ category }}
+        </mat-button-toggle>
+    </mat-button-toggle-group>
+
+    <div class="moduleCard" *ngFor="let module of filteredModules">
+        <app-module-card  [module]="module"></app-module-card>
+    </div>
     </div>
   
     <div class="schoolsContainer" fxFlex.gt-md="50">
@@ -14,6 +22,7 @@
                 Schools
             </b>
          </h1>
-    </div>
+         <app-school-card *ngFor="let school of schools; let i = index" [school]="school" [isOdd]="i % 2 === 0"></app-school-card>
+        </div>
   </div>
   

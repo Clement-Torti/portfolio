@@ -1,0 +1,21 @@
+<mat-card *ngIf="module">
+    <mat-card-header>
+        <div class="hourContainer">
+            <span class="hourLabel">{{ module.hoursOfStudies }}h</span>
+        </div>
+        <mat-card-title>
+            {{module.title}}
+        </mat-card-title>
+        <mat-card-subtitle>
+            {{module.school}}
+        </mat-card-subtitle>
+    </mat-card-header>
+<mat-card-content>
+    {{ module.description }}
+    <mat-divider></mat-divider>
+    References: <br/>
+    <div *ngFor="let ref of module.references">
+        {{ ref }}
+    </div>
+</mat-card-content>
+</mat-card>

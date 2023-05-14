@@ -1,12 +1,21 @@
+.mainContainer {
+    padding-top: 100px;
+}
+
 .modulesContainer {
-    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
 }
 
 .schoolsContainer {
-    background-color: blue;
 }
 
 .sectionTitle {
     font-size: 30px;
     color: black;
-  }
+}
+
+.moduleCard {
+    margin-top: 20px;
+}
