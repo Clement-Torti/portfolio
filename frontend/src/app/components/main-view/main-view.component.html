@@ -1,8 +1,9 @@
 <app-navbar [currentSection]="currentSection" (sectionClick)="handleSectionClick($event)"></app-navbar>
-<app-about-me-section #aboutMe id="aboutMe"/>
-<app-education-section #education id="education"/>
-<app-projects-section #projects id="projects"/>
-<app-professional-experience-section #professionalExperience id="professionalExperience"/>
-<app-hobbies-section #hobbies id="hobbies"/>
-<app-contact-section #contact id="contact"/>
-
+<div class="mainContainer">
+    <app-about-me-section #aboutMe id="aboutMe"/>
+    <app-education-section #education id="education"/>
+    <app-projects-section #projects id="projects"/>
+    <app-professional-experience-section #professionalExperience id="professionalExperience"/>
+    <app-hobbies-section #hobbies id="hobbies"/>
+    <app-contact-section #contact id="contact"/>    
+</div>
