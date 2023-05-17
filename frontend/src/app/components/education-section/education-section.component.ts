@@ -14,18 +14,12 @@ export class EducationSectionComponent {
   filteredModules: Module[] = this.modules;
   schools = MOCKED_SCHOOLS;
 
-  moduleCatergoryValues() {
+  moduleCategoryValues() {
     return Object.values(ModuleCategory);
   }
 
-  onCategoryChange(event: any) {
-    const category = event.value as ModuleCategory; 
-    console.log("0", event);
-    console.log("1", this.modules[0].category);
-    
+  onCategoryChange(category: string) {    
     this.filteredModules = this.modules.filter(module => module.category === category);
-    console.log("3", this.filteredModules);
-    
   }
   
 }

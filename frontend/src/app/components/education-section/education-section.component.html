@@ -5,11 +5,13 @@
             Modules studied
         </b>
     </h1>
-    <mat-button-toggle-group (change)="onCategoryChange($event)"  aria-label="Font Style">
-        <mat-button-toggle *ngFor="let category of moduleCatergoryValues()" [value]="category" >
+
+    <div class="btn-group" role="group" aria-label="Font Style">
+        <button type="button" class="btn btn-primary" *ngFor="let category of moduleCategoryValues()" [value]="category" (click)="onCategoryChange(category)">
             {{ category }}
-        </mat-button-toggle>
-    </mat-button-toggle-group>
+        </button>
+    </div>
+    
 
     <div class="moduleCard" *ngFor="let module of filteredModules">
         <app-module-card  [module]="module"></app-module-card>
