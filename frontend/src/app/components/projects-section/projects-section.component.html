@@ -1,1 +1,18 @@
-<p>projects-section works!</p>
+<div class="row mainContainer">
+  <div class="col-md-5">
+    <div class="row">
+      <h3>Projects</h3>
+
+      <div class="col-md-6" *ngFor="let project of projects" (click)="showProjectDetails(project)">
+        <div class="card mb-3">
+          <div class="card-body">
+            <h5 class="card-title">{{ project.title }}</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-7">
+    <app-project-details [project]="selectedProject"></app-project-details>
+  </div>
+</div>

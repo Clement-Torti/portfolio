@@ -18,6 +18,7 @@ import { ContactSectionComponent } from './components/contact-section/contact-se
 import { ProjectsSectionComponent } from './components/projects-section/projects-section.component';
 import { ModuleCardComponent } from './components/module-card/module-card.component';
 import { SchoolCardComponent } from './components/school-card/school-card.component';
+import { ProjectDetailsComponent } from './components/project-details/project-details.component';
 
 @NgModule({
   declarations: [AppComponent, 
@@ -30,7 +31,8 @@ import { SchoolCardComponent } from './components/school-card/school-card.compon
     ContactSectionComponent, 
     ProjectsSectionComponent,
     ModuleCardComponent,
-    SchoolCardComponent],
+    SchoolCardComponent,
+    ProjectDetailsComponent],
   imports: [BrowserModule, 
     AppRoutingModule, 
     HttpClientModule, 
