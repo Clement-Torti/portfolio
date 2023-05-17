@@ -19,6 +19,8 @@ import { ProjectsSectionComponent } from './components/projects-section/projects
 import { ModuleCardComponent } from './components/module-card/module-card.component';
 import { SchoolCardComponent } from './components/school-card/school-card.component';
 import { ProjectDetailsComponent } from './components/project-details/project-details.component';
+import { YTPlayerModule } from 'angular-youtube-player';
+
 
 @NgModule({
   declarations: [AppComponent, 
@@ -40,6 +42,7 @@ import { ProjectDetailsComponent } from './components/project-details/project-de
     CommonModule, 
     FlexLayoutModule, 
     NgxExtendedPdfViewerModule,
+    YTPlayerModule
     ],
   providers: [],
   bootstrap: [AppComponent],

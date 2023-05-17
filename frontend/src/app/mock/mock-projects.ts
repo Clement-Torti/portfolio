@@ -8,7 +8,7 @@ export const MOCKED_PROJECTS: Project[] = [
     '2018 - 2 months',
     'Developer',
     null,
-    ['Damien NGuyen'],
+    ['Clément Torti', 'Damien NGuyen'],
     ['C#', 'XAML'], 
     ['StarUML', 'Balsamiq mockup', 'Draw.io', 'Visual Studio', 'SVN'],
     ['Software design: class diagram, package, sketch, usecases.',
@@ -19,7 +19,19 @@ export const MOCKED_PROJECTS: Project[] = [
     'https://github.com/Clement-Torti/tournament-tree',
     'https://youtu.be/9WWGtvwoqaU',
     null,
-    [ProjectCategory.DESKTOP])
+    [ProjectCategory.DESKTOP]),
+    new Project('TOURNAMENT TREES', '','','','',null,[],['C#', 'XAML'], [],[],'','',null,[ProjectCategory.DESKTOP]),
+
+    new Project('TOURNAMENT TREES', '','','','',null,[],['C#', 'XAML'], [],[],'','',null,[ProjectCategory.DESKTOP]),
+
+    new Project('TOURNAMENT TREES', '','','','',null,[],['C#', 'XAML'], [],[],'','',null,[ProjectCategory.DESKTOP]),
+
+    new Project('TOURNAMENT TREES', '','','','',null,[],['C#', 'XAML'], [],[],'','',null,[ProjectCategory.DESKTOP]),
+
+    new Project('TOURNAMENT TREES', '','','','',null,[],['C#', 'XAML'], [],[],'','',null,[ProjectCategory.DESKTOP]),
+
+    new Project('TOURNAMENT TREES', '','','','',null,[],['C#', 'XAML'], [],[],'','',null,[ProjectCategory.DESKTOP]),
+
 
 
 ]

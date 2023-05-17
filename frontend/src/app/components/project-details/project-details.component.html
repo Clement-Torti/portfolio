@@ -1,6 +1,44 @@
-<div *ngIf="project">
-    <h3>{{ project.title }}</h3>
-    <p>{{ project.description }}</p>
-    <!-- Display other project details as needed -->
-</div>
+<div *ngIf="project" class="container">
+    <div class="row">
+      <div class="col-md-10 offset-md-1">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">{{ project.title }} ({{ project.projectCategories.join(", ")}})</h5>
+            <lib-ytplayer class="videoPlayer" *ngIf="project.videoLink" [videoId]="extractVideoId(project.videoLink)!"></lib-ytplayer>
+            <br />
+            <p class="card-text">{{ project.description }}</p>
+            <hr>
+            <div class="row">
+              <div class="col-md-6">
+                <p><strong>Entity:</strong> {{ project.entity }}</p>
+                <p><strong>Date:</strong> {{ project.date }}</p>
+                <p><strong>Role:</strong> {{ project.role }}</p>
+                <p><strong>Team Members:<p *ngIf="project.teamDescription">({{ project.teamDescription }})</p></strong></p>
+                <ul>
+                  <li *ngFor="let member of project.teamMembers">{{ member }}</li>
+                </ul>
+              </div>
+              <div class="col-md-6">
+                <p><strong>Languages:</strong></p>
+                <ul>
+                  <li *ngFor="let language of project.languages">{{ language }}</li>
+                </ul>
+                <p><strong>Technologies:</strong></p>
+                <ul>
+                  <li *ngFor="let technology of project.technologies">{{ technology }}</li>
+                </ul>
+              </div>
+            </div>
+            <hr>
+            <p><strong>Acquired Skills:</strong></p>
+            <ul>
+              <li *ngFor="let skill of project.acquiredSkills">{{ skill }}</li>
+            </ul>
+            <p><strong>Github Link: </strong> <a href="{{ project.githubLink }}" target="_blank">{{ project.githubLink }}</a></p>
+            <p><strong>Report Path: </strong> <a href="{{ project.reportPath }}" target="_blank">{{ project.reportPath }}</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
   
