@@ -9,6 +9,7 @@ export class Project {
     teamDescription: string | null;
     teamMembers: string[];
     languages: string[];
+    technologies: string[];
     acquiredSkills: string[];
     githubLink: string | null;
     videoLink: string | null;
@@ -24,7 +25,8 @@ export class Project {
         role: string, 
         teamDescription: string | null, 
         teamMembers: string[], 
-        languages: string[], 
+        languages: string[],
+        technologies: string[], 
         acquiredSkills: string[], 
         githubLink: string | null, 
         videoLink: string | null, 
@@ -38,6 +40,7 @@ export class Project {
         this.teamDescription = teamDescription;
         this.teamMembers = teamMembers;
         this.languages = languages;
+        this.technologies = technologies;
         this.acquiredSkills = acquiredSkills;
         this.githubLink = githubLink;
         this.videoLink = videoLink;
