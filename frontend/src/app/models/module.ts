@@ -1,5 +1,4 @@
 import { ModuleCategory } from './moduleCategory';
-import { School } from './school';
 import { SchoolCategory } from './schoolCategory';
 
 export class Module {

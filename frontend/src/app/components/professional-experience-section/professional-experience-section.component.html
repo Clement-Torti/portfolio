@@ -1,1 +1,32 @@
-<p>professional-experience-section works!</p>
+<div class="container mainContainer">
+  <h1>Professional Experience</h1>
+
+  <div class="row">
+    <div *ngFor="let job of jobs" class="col-md-12">
+      <div class="mb-4 job-card-container">
+        <div class="job-card card col-md-8">
+          <div class="card-body job-card-content">
+            <div class="row">
+              <div class="col-md-6">
+                <p class="card-title fs-5">{{ job.company }}</p>
+              </div>
+              <div class="col-md-6">
+                <p class="card-text text-md-right job-date">{{ job.date }}</p>
+              </div>
+            </div>
+            <h5 class="card-text"><i>{{ job.title }}</i></h5>
+            <p class="card-text text-justify">{{ job.description }}</p>
+            <hr>
+            <i>Missions: </i><br>
+            <ul *ngFor="let mission of job.missions">
+                <li>{{ mission }}</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <img [src]="job.imagePath" class="card-img company-image" alt="Company 1">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
