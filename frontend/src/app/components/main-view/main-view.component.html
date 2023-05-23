@@ -1,5 +1,6 @@
 <app-navbar [currentSection]="currentSection" (sectionClick)="handleSectionClick($event)"></app-navbar>
-<div class="mainContainer">
+<app-particle></app-particle>
+  <div class="mainContainer ">
     <app-about-me-section #aboutMe id="aboutMe"/>
     <app-education-section #education id="education"/>
     <app-projects-section #projects id="projects"/>
@@ -12,5 +13,5 @@
           <p>&copy; 2023 Clément Torti. Portfolio.</p>
         </div>
       </footer>
-      
+    
 </div>

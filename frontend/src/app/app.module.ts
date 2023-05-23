@@ -21,7 +21,7 @@ import { SchoolCardComponent } from './components/school-card/school-card.compon
 import { ProjectDetailsComponent } from './components/project-details/project-details.component';
 import { YTPlayerModule } from 'angular-youtube-player';
 import { HobbyCardComponent } from './components/hobby-card/hobby-card.component';
-
+import { ParticleComponent } from './components/particle/particle.component';
 
 @NgModule({
   declarations: [AppComponent, 
@@ -36,7 +36,9 @@ import { HobbyCardComponent } from './components/hobby-card/hobby-card.component
     ModuleCardComponent,
     SchoolCardComponent,
     ProjectDetailsComponent,
-    HobbyCardComponent],
+    HobbyCardComponent,
+    ParticleComponent
+    ],
   imports: [BrowserModule, 
     AppRoutingModule, 
     HttpClientModule, 
