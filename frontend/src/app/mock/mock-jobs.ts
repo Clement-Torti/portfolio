@@ -25,7 +25,7 @@ export const MOCKED_JOBS: Job[] = [
     ),
     new Job(
         'Yansys Vichy, France',
-        'Jun 2018 - Jul 2018',
+        'Jun 2018 - Jul 2018 (Summer job)',
         'Mobile Developer',
         'Medical software company. In charge of the development of the mobile version of HurryCan, a web application for patient-doctor messaging. IOS development in swift within an agile team.',
         [

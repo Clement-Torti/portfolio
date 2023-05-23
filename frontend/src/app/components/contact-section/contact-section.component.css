@@ -1,0 +1,22 @@
+.mainContainer {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.card-body {
+    padding: 30px;
+}
+
+.contactField {
+    margin-bottom: 10px;
+}
+
+
+.bi {
+    margin-right: 10px;
+}
+
+.endMessage {
+    margin-top: 100px;
+    text-align: right;
+}
