@@ -63,34 +63,71 @@
 
 /* Prerequisites */
 .prerequisitesContainer {
-    background-color: #f8f9fa;
-    padding: 20px;
-    padding-bottom: 10px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  background-color: #f8f9fa;
+  padding: 20px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  position: relative;
+  overflow: hidden;
+  border: 3px solid #61380B;
+}
+
+
+.vieLabel {
+  font-size: 24px;
+  margin-bottom: 10px;
+  animation: textColorAnimation 3s linear infinite alternate;
+}
+
+@keyframes textColorAnimation {
+  0% {
+    color: #61380B; /* Black */
   }
-  
-  .vieLabel {
-    font-size: 24px;
-    margin-bottom: 10px;
+  50% {
+    color: #000000; /* Custom color */
   }
-  
-  .jobPrerequisitesList {
-    list-style: none;
-    padding: 0;
+  100% {
+    color: #61380B; /* Black */
   }
-  
-  .jobPrerequisitesList li {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
-    font-size: 18px;
+}
+
+
+
+
+
+.jobPrerequisitesList {
+  list-style: none;
+  padding: 0;
+}
+
+.jobPrerequisitesList li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #555;
+}
+
+.jobPrerequisitesList li i {
+  margin-right: 5px;
+  color: #2185bf;
+}
+
+@keyframes borderAppear {
+  0% {
+    border-color: transparent;
+    opacity: 0;
   }
-  
-  .jobPrerequisitesList li i {
-    margin-right: 5px;
+  50% {
+    border-color: #ffcc00;
+    opacity: 1;
   }
-  
+  100% {
+    border-color: transparent;
+    opacity: 0;
+  }
+}
 
 /* CV */
 .CVContainer {
