@@ -20,6 +20,7 @@ import { ModuleCardComponent } from './components/module-card/module-card.compon
 import { SchoolCardComponent } from './components/school-card/school-card.component';
 import { ProjectDetailsComponent } from './components/project-details/project-details.component';
 import { YTPlayerModule } from 'angular-youtube-player';
+import { HobbyCardComponent } from './components/hobby-card/hobby-card.component';
 
 
 @NgModule({
@@ -34,7 +35,8 @@ import { YTPlayerModule } from 'angular-youtube-player';
     ProjectsSectionComponent,
     ModuleCardComponent,
     SchoolCardComponent,
-    ProjectDetailsComponent],
+    ProjectDetailsComponent,
+    HobbyCardComponent],
   imports: [BrowserModule, 
     AppRoutingModule, 
     HttpClientModule, 
@@ -42,7 +44,7 @@ import { YTPlayerModule } from 'angular-youtube-player';
     CommonModule, 
     FlexLayoutModule, 
     NgxExtendedPdfViewerModule,
-    YTPlayerModule
+    YTPlayerModule,
     ],
   providers: [],
   bootstrap: [AppComponent],

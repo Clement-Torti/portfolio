@@ -13,46 +13,44 @@
           </div>
         </div>
   
-        <div class="row cardsContainer">
+        <div class="row cardsContainer ">
           <div class="col-md-2 cardElement">
-            <h4 data-id="nationalityLabel">French</h4>
+            <h5 data-id="nationalityLabel">French</h5>
           </div>
   
           <div class="col-md-2 cardElement">
-            <h4 data-id="ageLabel">24 yo</h4>
+            <h5 data-id="ageLabel">24 yo</h5>
           </div>
   
           <div class="col-md-2 cardElement">
-            <h4 data-id="drivingLicenseLabel">Driving license</h4>
+            <h5 data-id="drivingLicenseLabel">Driving license</h5>
           </div>
         </div>
   
-        <p class="descriptionLabel" data-id="descriptionLabel">
-          <i>”Passionate about computer science, I like to explore 
-          new technologies and collaborate in a team. 
-          I would like to join a team of developers working 
-          in agile mode in a dynamic and innovative company.”
-          </i>
-        </p>
+
   
-        <div class="prerequisitesContainer">
+        <div class="prerequisitesContainer col-md-6">
           <h1 class="vieLabel"><b>Searching for a VIE</b></h1>
           <ul class="jobPrerequisitesList" data-id="jobPrerequisitesList">
-            <li>Latinoamerica</li>
-            <li>1-2 years</li>
-            <li>Available from mid-September</li>
+            <li><i class="bi bi-globe"></i> Latinoamerica</li>
+            <li><i class="bi bi-clock"></i> 1-2 years</li>
+            <li><i class="bi bi-calendar"></i> Available from mid-September</li>
+            <li><i class="bi bi-people"></i> Agile team</li>
+            <li><i class="bi bi-briefcase"></i> Open to any sector</li>
           </ul>
         </div>
+        
+        
       </div>
-  
-      <div class="col-md-6 CVContainer">
-        <ngx-extended-pdf-viewer
-          [src]="'assets/pdfs/CV_English.pdf'"
-          [useBrowserLocale]="true"
-          [showToolbar]="false"
-          [backgroundColor]="'transparent'"
-        ></ngx-extended-pdf-viewer>
+      <div class="col-md-6 CVContainer d-flex flex-column align-items-center">
+        <p class="descriptionLabel col-md-12" data-id="descriptionLabel">
+          <i>”Passionate about computer science, I like to explore new technologies and collaborate in a team. I would like to join a team of developers working in agile mode in a dynamic and innovative company.”</i>
+        </p>
+        <img class="CVImage" data-id="CVImage" [src]="cvPath" alt="My CV">
       </div>
+      
+      
+      
     </div>
   </div>
   

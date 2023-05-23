@@ -1,1 +1,12 @@
-<p>hobbies-section works!</p>
+<div class="mainContainer">
+    <div class="btn-group col-md-8 offset-md-2" role="group" aria-label="Font Style">
+        <button type="button" class="btn btn-primary btn-block" *ngFor="let category of hobbyCategoryValues()" [value]="category" [class.active]="selectedCategory === category" (click)="onCategoryChange(category)">
+            {{ category }}
+        </button>
+    </div>
+
+    
+    <div class="hobbyCard col-md-6 offset-md-3" *ngFor="let hobby of filteredHobbies">
+        <app-hobby-card  [hobby]="hobby"></app-hobby-card>
+    </div>
+</div>
