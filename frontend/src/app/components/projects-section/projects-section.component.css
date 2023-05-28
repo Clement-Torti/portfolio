@@ -1,3 +1,7 @@
 .mainContainer {
     padding-top: 100px;
 }
+
+.activeProject {
+    background-color: rgb(240, 240, 240);
+}

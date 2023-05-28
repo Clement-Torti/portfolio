@@ -10,32 +10,45 @@
             <hr>
             <div class="row">
               <div class="col-md-6">
-                <p><strong>Entity:</strong> {{ project.entity }}</p>
-                <p><strong>Date:</strong> {{ project.date }}</p>
-                <p><strong>Role:</strong> {{ project.role }}</p>
-                <p><strong>Team Members:<p *ngIf="project.teamDescription">({{ project.teamDescription }})</p></strong></p>
+                <p><strong><i class="bi bi-building"></i></strong> {{ project.entity }}</p>
+                <p><strong><i class="bi bi-calendar3"></i></strong> {{ project.date }}</p>
+                <p><strong><i class="bi bi-briefcase"></i></strong> {{ project.role }}</p>
+                <p><strong><i class="bi bi-people"> Team members</i><p *ngIf="project.teamDescription">({{ project.teamDescription }})</p></strong></p>
                 <ul>
                   <li *ngFor="let member of project.teamMembers">{{ member }}</li>
                 </ul>
               </div>
               <div class="col-md-6">
-                <p><strong>Languages:</strong></p>
+                <p><strong><i class="bi bi-code"> Programming languages</i></strong></p>
                 <ul>
                   <li *ngFor="let language of project.languages">{{ language }}</li>
                 </ul>
-                <p><strong>Technologies:</strong></p>
+                <p><strong><i class="bi bi-code-slash"> Technologies</i></strong></p>
                 <ul>
                   <li *ngFor="let technology of project.technologies">{{ technology }}</li>
                 </ul>
               </div>
             </div>
             <hr>
-            <p><strong>Acquired Skills:</strong></p>
+            <p><strong><i class="bi bi-tools"> Acquired Skills:</i></strong></p>
             <ul>
               <li *ngFor="let skill of project.acquiredSkills">{{ skill }}</li>
             </ul>
-            <p><strong>Github Link: </strong> <a href="{{ project.githubLink }}" target="_blank">{{ project.githubLink }}</a></p>
-            <p><strong>Report Path: </strong> <a href="{{ project.reportPath }}" target="_blank">{{ project.reportPath }}</a></p>
+            <p><strong><i class="bi bi-github"></i></strong> <a href="{{ project.githubLink }}" target="_blank"> {{ project.githubLink }}</a></p>
+            <div *ngIf="project.reportPath" class="report">
+              <p>
+                <strong>Report: <a [href]="'assets/pdfs/' + project.reportPath" download>{{ project.reportPath }}</a>
+                </strong> 
+              </p>
+              <ngx-extended-pdf-viewer
+              [src]="'assets/pdfs/' + project.reportPath"
+              [height]="'700px'" 
+              [useBrowserLocale]="true" 
+              [showToolbar]="false"
+              [backgroundColor]="'transparent'"
+              ></ngx-extended-pdf-viewer>
+            </div>
+          
           </div>
         </div>
       </div>
