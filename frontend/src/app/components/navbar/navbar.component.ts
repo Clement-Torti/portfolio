@@ -1,4 +1,4 @@
-import { Component, Input, Output, EventEmitter } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-navbar',
@@ -6,10 +6,4 @@ import { Component, Input, Output, EventEmitter } from '@angular/core';
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent {
-  @Output() sectionClick = new EventEmitter<string>();
-  @Input() currentSection: string = 'aboutMe';
-
-  scrollToSection(section: string) {
-    this.sectionClick.emit(section);
-  }
 }

@@ -1,17 +1,18 @@
-<app-navbar [currentSection]="currentSection" (sectionClick)="handleSectionClick($event)"></app-navbar>
-<app-particle></app-particle>
-  <div class="mainContainer ">
-    <app-about-me-section #aboutMe id="aboutMe"/>
-    <app-education-section #education id="education"/>
-    <app-projects-section #projects id="projects"/>
-    <app-professional-experience-section #professionalExperience id="professionalExperience"/>
-    <app-hobbies-section #hobbies id="hobbies"/>
-    <app-contact-section #contact id="contact"/> 
+<app-navbar></app-navbar>
 
-    <footer>
-        <div class="container">
-          <p>&copy; 2023 Clément Torti. Portfolio.</p>
-        </div>
-      </footer>
-    
+<app-particle></app-particle>
+
+<div class="mainContainer">
+  <app-about-me-section #aboutMe id="aboutMe"></app-about-me-section>
+  <app-education-section #education id="education"></app-education-section>
+  <app-projects-section #projects id="projects"></app-projects-section>
+  <app-professional-experience-section #professionalExperience id="professionalExperience"></app-professional-experience-section>
+  <app-hobbies-section #hobbies id="hobbies"></app-hobbies-section>
+  <app-contact-section #contact id="contact"></app-contact-section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 Clément Torti. Portfolio.</p>
+    </div>
+  </footer>
 </div>

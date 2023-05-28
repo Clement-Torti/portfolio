@@ -4,7 +4,6 @@
     
 }
 
-
 footer {
     background-color: #333;
     color: #fff;
@@ -17,16 +16,16 @@ footer {
     margin: 0 auto;
   }
   
-  p {
+  .footer p {
     margin: 0;
   }
   
-  a {
+  .footer a {
     color: #fff;
     text-decoration: none;
   }
   
-  a:hover {
+  .footer a:hover {
     text-decoration: underline;
   }
   
