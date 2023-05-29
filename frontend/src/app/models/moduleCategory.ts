@@ -1,7 +1,12 @@
 export enum ModuleCategory {
+    ALGORITHM = "Algorithms",
     PROGRAMMING = 'Programming',
-    BDD = 'BDD',
-    NETWORKING = 'Network',
-    SOFT_SKILL = 'SoftSkills', 
+    DATABASE = 'Databases',
+    NETWORKING = 'Networking',
+    SOFT_SKILL = 'Soft skills', 
     MATH = "Math",
+    WEB = "Web",
+    MANAGEMENT = "Management",
+    ENGINEERING_TOOLS = "Engineering Tools",
+    SYSTEM = "System",
 }

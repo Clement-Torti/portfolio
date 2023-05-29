@@ -2,10 +2,10 @@
     <img *ngIf="isOdd" class="schoolPicture" data-id="schoolPicture" [src]="school.imagePath"  alt="School Picture">
     
     <div [class]="isOdd ? 'schoolInfoContainerOdd' : 'schoolInfoContainerPar'">
-        <h1 class="titleLabel"> {{ school.title }} </h1>
-        <h3 class="yearsLabel">
+        <h3 class="titleLabel"> {{ school.title }} </h3>
+        <h5 class="yearsLabel">
           {{ school.years }}, {{ school.location }}
-        </h3>
+        </h5>
         <a [href]="school.link" >{{ school.link }}</a>
         <p class="descriptionLabel"> {{ school.description }} </p>
     </div>

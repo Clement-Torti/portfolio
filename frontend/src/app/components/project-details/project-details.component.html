@@ -37,7 +37,7 @@
             <p><strong><i class="bi bi-github"></i></strong> <a href="{{ project.githubLink }}" target="_blank"> {{ project.githubLink }}</a></p>
             <div *ngIf="project.reportPath" class="report">
               <p>
-                <strong>Report: <a [href]="'assets/pdfs/' + project.reportPath" download>{{ project.reportPath }}</a>
+                <strong>Download report: <a [href]="'assets/pdfs/' + project.reportPath" download>{{ project.reportPath }}</a>
                 </strong> 
               </p>
               <ngx-extended-pdf-viewer
