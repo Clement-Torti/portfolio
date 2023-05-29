@@ -30,24 +30,24 @@ export const MOCKED_HOBBIES: Hobby[] = [
         HobbyCategory.LANGUAGES
     ),
     new Hobby(
-        'Arabic conference in the instute of the arab world, Paris, France.',
+        'Arabic conference in the institute of the arab world, Paris, France.',
         '',
         HobbyCategory.LANGUAGES,
-        'arabic_conference.HEIC'
+        'arabic_conference.jpeg'
     ),
-    
+
     new Hobby(
         'Arabic institute in Paris, France.',
         '',
         HobbyCategory.LANGUAGES,
-        'arabic_museum.HEIC'
+        'arabic_museum.jpeg'
     ),
 
     new Hobby(
         'Instrument from the arabe institute in Paris, France.',
         '',
         HobbyCategory.LANGUAGES,
-        'ude.HEIC'
+        'ude.jpeg'
     ),
 
 
@@ -55,14 +55,14 @@ export const MOCKED_HOBBIES: Hobby[] = [
         'My arabic textbook for exercices.',
         '',
         HobbyCategory.LANGUAGES,
-        'arabic_text_book.HEIC'
+        'arabic_text_book.jpeg'
     ),
 
     new Hobby(
         'Yellow chatters in Toulouse to talk foreign languages.',
         '',
         HobbyCategory.LANGUAGES,
-        'blabla_exchange.HEIC'
+        'blabla_exchange.jpeg'
     ),
 
     new Hobby(
@@ -76,7 +76,7 @@ export const MOCKED_HOBBIES: Hobby[] = [
         'Fes, 2022.',
         '',
         HobbyCategory.LANGUAGES,
-        'fes_2022.HEIC'
+        'fes_2022.jpeg'
     ),
 
     new Hobby(
@@ -87,45 +87,38 @@ export const MOCKED_HOBBIES: Hobby[] = [
     ),
 
     new Hobby(
-        'Nice evening with international friends in a hostel in Bordeaux, France.',
-        '',
-        HobbyCategory.LANGUAGES,
-        'hostel_friends.HEIC'
-    ),
-
-    new Hobby(
         'With latinos in bordeaux, ready to see the Tour the France in Libourne, 2021.',
         '',
         HobbyCategory.LANGUAGES,
-        'latinos_friends.HEIC'
+        'latinos_friends.jpeg'
     ),
 
     new Hobby(
         'From the impressive madrid arena, 2023.',
         '',
         HobbyCategory.LANGUAGES,
-        'madrid_arena.HEIC'
+        'madrid_arena.jpeg'
     ),
 
     new Hobby(
         'Last day with the prom at the UCM, madrid.',
         '',
         HobbyCategory.LANGUAGES,
-        'madrid_friends.HEIC'
+        'madrid_friends.jpeg'
     ),
 
     new Hobby(
         'Mosque of Paris.',
         '',
         HobbyCategory.LANGUAGES,
-        'mosquee_paris.HEIC'
+        'mosquee_paris.jpeg'
     ),
 
     new Hobby(
         'My new frame from Seville, love it.',
         '',
         HobbyCategory.LANGUAGES,
-        'seville.HEIC'
+        'seville.jpeg'
     ),
 
 
