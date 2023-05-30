@@ -7,7 +7,7 @@ export const MOCKED_MODULES: Module[] = [
     new Module(
         'Algorithms', 
         SchoolCategory.IUT, 
-        10, 
+        '', 
         '' , 
         [''],
         ModuleCategory.PROGRAMMING
@@ -16,7 +16,7 @@ export const MOCKED_MODULES: Module[] = [
     new Module(
         'Arithmetic', 
         SchoolCategory.IUT, 
-        10, 
+        '', 
         '' , 
         [''],
         ModuleCategory.MATH
@@ -25,7 +25,7 @@ export const MOCKED_MODULES: Module[] = [
     new Module(
         'Documentation & Interface (HTML & CSS)', 
         SchoolCategory.IUT, 
-        10, 
+        '', 
         '' , 
         [''],
         ModuleCategory.WEB
@@ -34,7 +34,7 @@ export const MOCKED_MODULES: Module[] = [
     new Module(
         'Software Economics', 
         SchoolCategory.IUT, 
-        10, 
+        '', 
         '' , 
         [''],
         ModuleCategory.MANAGEMENT
@@ -42,7 +42,7 @@ export const MOCKED_MODULES: Module[] = [
     new Module(
         'Information Systems', 
         SchoolCategory.IUT, 
-        10, 
+        '', 
         '' , 
         [''],
         ModuleCategory.NETWORKING
@@ -51,7 +51,7 @@ export const MOCKED_MODULES: Module[] = [
     new Module(
         'Linear Algebra', 
         SchoolCategory.IUT, 
-        10, 
+        '', 
         '' , 
         [''],
         ModuleCategory.MATH
@@ -60,7 +60,7 @@ export const MOCKED_MODULES: Module[] = [
     new Module(
         'Databases', 
         SchoolCategory.IUT, 
-        10, 
+        '', 
         '' , 
         [''],
         ModuleCategory.DATABASE
@@ -69,7 +69,7 @@ export const MOCKED_MODULES: Module[] = [
     new Module(
         'Business Management', 
         SchoolCategory.IUT, 
-        10, 
+        '', 
         '' , 
         [''],
         ModuleCategory.MANAGEMENT
@@ -77,7 +77,7 @@ export const MOCKED_MODULES: Module[] = [
     new Module(
         'Data Structures', 
         SchoolCategory.IUT, 
-        10, 
+        '', 
         '' , 
         [''],
         ModuleCategory.ALGORITHM
@@ -86,7 +86,7 @@ export const MOCKED_MODULES: Module[] = [
     new Module(
         'Architecture', 
         SchoolCategory.IUT, 
-        10, 
+        '', 
         '' , 
         [''],
         ModuleCategory.SYSTEM
@@ -95,7 +95,7 @@ export const MOCKED_MODULES: Module[] = [
     new Module(
         'Budget Management', 
         SchoolCategory.IUT, 
-        10, 
+        '', 
         '' , 
         [''],
         ModuleCategory.MANAGEMENT
@@ -104,7 +104,7 @@ export const MOCKED_MODULES: Module[] = [
     new Module(
         'Graphs & Automata', 
         SchoolCategory.IUT, 
-        10, 
+        '', 
         '' , 
         [''],
         ModuleCategory.ALGORITHM
@@ -112,7 +112,7 @@ export const MOCKED_MODULES: Module[] = [
     new Module(
         'Object-oriented Programming', 
         SchoolCategory.IUT, 
-        10, 
+        '', 
         '' , 
         [''],
         ModuleCategory.PROGRAMMING
@@ -121,7 +121,7 @@ export const MOCKED_MODULES: Module[] = [
     new Module(
         'Analysis & Numerical Methods', 
         SchoolCategory.IUT, 
-        10, 
+        '', 
         '' , 
         [''],
         ModuleCategory.MATH
@@ -130,7 +130,7 @@ export const MOCKED_MODULES: Module[] = [
     new Module(
         'Object-Oriented Programming and Human-Computer Interaction', 
         SchoolCategory.IUT, 
-        10, 
+        '', 
         '' , 
         [''],
         ModuleCategory.PROGRAMMING
@@ -139,7 +139,7 @@ export const MOCKED_MODULES: Module[] = [
     new Module(
         'Labor Law', 
         SchoolCategory.IUT, 
-        10, 
+        '', 
         '' , 
         [''],
         ModuleCategory.SOFT_SKILL
@@ -148,7 +148,7 @@ export const MOCKED_MODULES: Module[] = [
     new Module(
         'Project Management', 
         SchoolCategory.IUT, 
-        10, 
+        '', 
         '' , 
         [''],
         ModuleCategory.MANAGEMENT
@@ -157,7 +157,7 @@ export const MOCKED_MODULES: Module[] = [
     new Module(
         'Advanced Algorithms', 
         SchoolCategory.IUT, 
-        10, 
+        '', 
         '' , 
         [''],
         ModuleCategory.ALGORITHM
@@ -166,7 +166,7 @@ export const MOCKED_MODULES: Module[] = [
     new Module(
         'Advanced Databases', 
         SchoolCategory.IUT, 
-        10, 
+        '', 
         '' , 
         [''],
         ModuleCategory.DATABASE
@@ -175,7 +175,7 @@ export const MOCKED_MODULES: Module[] = [
     new Module(
         'Probability and Statistics', 
         SchoolCategory.IUT, 
-        10, 
+        '', 
         '' , 
         [''],
         ModuleCategory.MATH
@@ -184,7 +184,7 @@ export const MOCKED_MODULES: Module[] = [
     new Module(
         'Network Services', 
         SchoolCategory.IUT, 
-        10, 
+        '', 
         '' , 
         [''],
         ModuleCategory.NETWORKING
@@ -193,7 +193,7 @@ export const MOCKED_MODULES: Module[] = [
     new Module(
         'Industrial Strategies', 
         SchoolCategory.IUT, 
-        10, 
+        '', 
         '' , 
         [''],
         ModuleCategory.SOFT_SKILL
@@ -202,7 +202,7 @@ export const MOCKED_MODULES: Module[] = [
     new Module(
         'ICT Law', 
         SchoolCategory.IUT, 
-        10, 
+        '', 
         '' , 
         [''],
         ModuleCategory.SOFT_SKILL
@@ -211,7 +211,7 @@ export const MOCKED_MODULES: Module[] = [
     new Module(
         'Project Management 2', 
         SchoolCategory.IUT, 
-        10, 
+        '', 
         '' , 
         [''],
         ModuleCategory.MANAGEMENT
@@ -220,7 +220,7 @@ export const MOCKED_MODULES: Module[] = [
     new Module(
         'Mathematical Modeling', 
         SchoolCategory.IUT, 
-        10, 
+        '', 
         '' , 
         [''],
         ModuleCategory.MATH
@@ -229,7 +229,7 @@ export const MOCKED_MODULES: Module[] = [
     new Module(
         'Advanced Object-Oriented Programming (JavaFX)', 
         SchoolCategory.IUT, 
-        10, 
+        '', 
         '' , 
         [''],
         ModuleCategory.PROGRAMMING
@@ -238,7 +238,7 @@ export const MOCKED_MODULES: Module[] = [
     new Module(
         'Operating System Programming', 
         SchoolCategory.IUT, 
-        10, 
+        '', 
         '' , 
         [''],
         ModuleCategory.SYSTEM
@@ -247,7 +247,7 @@ export const MOCKED_MODULES: Module[] = [
     new Module(
         'Server-Side Web Programming', 
         SchoolCategory.IUT, 
-        10, 
+        '', 
         '' , 
         [''],
         ModuleCategory.WEB
@@ -256,7 +256,7 @@ export const MOCKED_MODULES: Module[] = [
     new Module(
         'Entrepreneurship Workshop', 
         SchoolCategory.IUT, 
-        10, 
+        '', 
         '' , 
         [''],
         ModuleCategory.SOFT_SKILL
@@ -264,7 +264,7 @@ export const MOCKED_MODULES: Module[] = [
     new Module(
         'C++', 
         SchoolCategory.IUT, 
-        10, 
+        '', 
         '' , 
         [''],
         ModuleCategory.PROGRAMMING
@@ -273,7 +273,7 @@ export const MOCKED_MODULES: Module[] = [
     new Module(
         'Linear Algebra / Analysis of Algorithm Complexity', 
         SchoolCategory.IUT, 
-        10, 
+        '', 
         '' , 
         [''],
         ModuleCategory.MATH
@@ -282,7 +282,7 @@ export const MOCKED_MODULES: Module[] = [
     new Module(
         'Interpreted Object-Oriented Programming', 
         SchoolCategory.IUT, 
-        10, 
+        '', 
         '' , 
         [''],
         ModuleCategory.PROGRAMMING
@@ -291,7 +291,7 @@ export const MOCKED_MODULES: Module[] = [
     new Module(
         'Mobile Programming', 
         SchoolCategory.IUT, 
-        10, 
+        '', 
         '' , 
         [''],
         ModuleCategory.PROGRAMMING
@@ -300,7 +300,7 @@ export const MOCKED_MODULES: Module[] = [
     new Module(
         'Virtual Reality', 
         SchoolCategory.IUT, 
-        10, 
+        '', 
         '' , 
         [''],
         ModuleCategory.PROGRAMMING
@@ -309,7 +309,7 @@ export const MOCKED_MODULES: Module[] = [
     new Module(
         'English', 
         SchoolCategory.IUT, 
-        10, 
+        '', 
         '' , 
         [''],
         ModuleCategory.SOFT_SKILL
@@ -318,7 +318,7 @@ export const MOCKED_MODULES: Module[] = [
     new Module(
         'Expression & Professional Presentation', 
         SchoolCategory.IUT, 
-        10, 
+        '', 
         '' , 
         [''],
         ModuleCategory.SOFT_SKILL
@@ -331,7 +331,7 @@ export const MOCKED_MODULES: Module[] = [
     new Module(
         'Automata', 
         SchoolCategory.ENSEEIHT, 
-        10, 
+        '', 
         '' , 
         [''],
         ModuleCategory.ALGORITHM
@@ -340,7 +340,7 @@ export const MOCKED_MODULES: Module[] = [
     new Module(
         'Graph Theory ', 
         SchoolCategory.ENSEEIHT, 
-        10, 
+        '', 
         '' , 
         [''],
         ModuleCategory.ALGORITHM
@@ -349,16 +349,16 @@ export const MOCKED_MODULES: Module[] = [
     new Module(
         'Network Performance Evaluation', 
         SchoolCategory.ENSEEIHT, 
-        10, 
-        '' , 
-        [''],
+        '1 semester',
+        'Learned to assess and optimize network performance through measuring metrics, identifying bottlenecks, analyzing traffic patterns, and utilizing diagnostic tools for efficient system functioning' , 
+        ['André-Luc Beylot'],
         ModuleCategory.NETWORKING
     ),
     
     new Module(
         'Object Design and Programming', 
         SchoolCategory.ENSEEIHT, 
-        10, 
+        '', 
         '' , 
         [''],
         ModuleCategory.PROGRAMMING
@@ -366,7 +366,7 @@ export const MOCKED_MODULES: Module[] = [
     new Module(
         'Functional Programming', 
         SchoolCategory.ENSEEIHT, 
-        10, 
+        '', 
         '' , 
         [''],
         ModuleCategory.PROGRAMMING
@@ -375,16 +375,16 @@ export const MOCKED_MODULES: Module[] = [
     new Module(
         'Internet Applications', 
         SchoolCategory.ENSEEIHT, 
-        10, 
-        '' , 
-        [''],
-        ModuleCategory.NETWORKING
+        '1 semester', 
+        'Intermediate usage of Node.js and Javascript, Understanding of the DOM and usage of its API, Intermediate usage of HTML, Intermediate usage of CSS, Usage of JSON and Markdown, Understanding of HTTP, REST, and Websocket protocols, Usage of a query-builder (Knex), Usage of the FeathersJS application server to create a REST or real-time backend, Intermediate usage of VueJS 3 to create a frontend, Deployment on a virtual private server (Nginx, PM2)' , 
+        ['JC Buisson'],
+        ModuleCategory.WEB
     ),
 
     new Module(
         'Modeling Engineering', 
         SchoolCategory.ENSEEIHT, 
-        10, 
+        '', 
         '' , 
         [''],
         ModuleCategory.ENGINEERING_TOOLS
@@ -393,7 +393,7 @@ export const MOCKED_MODULES: Module[] = [
     new Module(
         'Language Translation', 
         SchoolCategory.ENSEEIHT, 
-        10, 
+        '', 
         '' , 
         [''],
         ModuleCategory.ENGINEERING_TOOLS
@@ -401,7 +401,7 @@ export const MOCKED_MODULES: Module[] = [
     new Module(
         'Database', 
         SchoolCategory.ENSEEIHT, 
-        10, 
+        '', 
         '' , 
         [''],
         ModuleCategory.DATABASE
@@ -410,7 +410,7 @@ export const MOCKED_MODULES: Module[] = [
     new Module(
         'Introduction to Networks', 
         SchoolCategory.ENSEEIHT, 
-        10, 
+        '', 
         '' , 
         [''],
         ModuleCategory.NETWORKING
@@ -419,7 +419,7 @@ export const MOCKED_MODULES: Module[] = [
     new Module(
         'Internet Protocols', 
         SchoolCategory.ENSEEIHT, 
-        10, 
+        '', 
         '' , 
         [''],
         ModuleCategory.NETWORKING
@@ -428,7 +428,7 @@ export const MOCKED_MODULES: Module[] = [
     new Module(
         'Telephone Networks', 
         SchoolCategory.ENSEEIHT, 
-        10, 
+        '', 
         '' , 
         [''],
         ModuleCategory.NETWORKING
@@ -437,7 +437,7 @@ export const MOCKED_MODULES: Module[] = [
     new Module(
         'Long-Distance Networks', 
         SchoolCategory.ENSEEIHT, 
-        10, 
+        '', 
         '' , 
         [''],
         ModuleCategory.NETWORKING
@@ -446,7 +446,7 @@ export const MOCKED_MODULES: Module[] = [
     new Module(
         'Telephone Networks ', 
         SchoolCategory.ENSEEIHT, 
-        10, 
+        '', 
         '' , 
         [''],
         ModuleCategory.NETWORKING
@@ -455,7 +455,7 @@ export const MOCKED_MODULES: Module[] = [
     new Module(
         'Centralized Systems', 
         SchoolCategory.ENSEEIHT, 
-        10, 
+        '', 
         '' , 
         [''],
         ModuleCategory.NETWORKING
@@ -464,8 +464,8 @@ export const MOCKED_MODULES: Module[] = [
     new Module(
         'Local Network Architecture', 
         SchoolCategory.ENSEEIHT, 
-        10, 
-        '' , 
+        '', 
+        '1 semester' , 
         [''],
         ModuleCategory.NETWORKING
     ),
@@ -473,34 +473,34 @@ export const MOCKED_MODULES: Module[] = [
     new Module(
         'Internet Protocols & Local Networks', 
         SchoolCategory.ENSEEIHT, 
-        10, 
-        '' , 
-        [''],
+        '1 semester', 
+        'Internet Protocols & Local Networks involve the study and understanding of the protocols and technologies used for communication within local networks and over the Internet. This includes gaining knowledge about protocols such as TCP/IP, Ethernet, Wi-Fi, and DNS, as well as concepts related to IP addressing, subnetting, routing, and network security.' , 
+        ['Béatrice Paillassa'],
         ModuleCategory.NETWORKING
     ),
 
     new Module(
         'Advanced Internet Protocols', 
         SchoolCategory.ENSEEIHT, 
-        10, 
-        '' , 
-        [''],
+        '1 semester', 
+        "Learned: Internet architecture (Intra/Inter-ISP), Internet routing, transport considerations (TCP, congestion control), applications (Client-Server/Peer-to-Peer), IPv6, tunneling." , 
+        ['Julien Fasson'],
         ModuleCategory.NETWORKING
     ),
     
     new Module(
         'Advanced Operated Networks', 
         SchoolCategory.ENSEEIHT, 
-        10, 
-        '' , 
-        [''],
+        '1 semester', 
+        'Learned in this module: ATM, SDH, ADSL, FTTH.' , 
+        ['André-Luc BEYLOT', 'Emmanuel CHAPUT'],
         ModuleCategory.NETWORKING
     ),
 
     new Module(
         'Mobile/Wireless Operator Networks', 
         SchoolCategory.ENSEEIHT, 
-        10, 
+        '', 
         '' , 
         [''],
         ModuleCategory.NETWORKING
@@ -509,7 +509,7 @@ export const MOCKED_MODULES: Module[] = [
     new Module(
         'Logic, Proof, and Induction', 
         SchoolCategory.ENSEEIHT, 
-        10, 
+        '', 
         '' , 
         [''],
         ModuleCategory.ENGINEERING_TOOLS
@@ -518,34 +518,34 @@ export const MOCKED_MODULES: Module[] = [
     new Module(
         'Statistics', 
         SchoolCategory.ENSEEIHT, 
-        10, 
-        '' , 
-        [''],
+        'Learn how to collect, analyze, and interprete numerical data to uncover patterns, relationships, and trends. It provides tools and techniques for making informed decisions and drawing meaningful conclusions from data.', 
+        '1 semester' , 
+        ['Vincent Charvillat'],
         ModuleCategory.MATH
     ),
 
     new Module(
         'Operations Research', 
         SchoolCategory.ENSEEIHT, 
-        10, 
-        '' , 
-        [''],
+        '1 semester', 
+        'Operations Research is a discipline that applies mathematical and analytical methods to solve complex decision-making problems in various fields. Learned: Linear Programming, Integer Linear Programming, Dynamic Programming and Extensions.' , 
+        [],
         ModuleCategory.ENGINEERING_TOOLS
     ),
 
     new Module(
         'Concurrent Systems IR', 
         SchoolCategory.ENSEEIHT, 
-        10, 
-        '' , 
-        [''],
+        '1 semester', 
+        'Learned: Mutual Exclusion, Semaphore, Monitor, Synchronization, and Communication in Ada (Task, Rendezvous), Parallel Systems with Critical Resources and Deadlock.' , 
+        ['Philippe Mauran'],
         ModuleCategory.SYSTEM
     ),
 
     new Module(
         'Transition Systems', 
         SchoolCategory.ENSEEIHT, 
-        10, 
+        '', 
         '' , 
         [''],
         ModuleCategory.ENGINEERING_TOOLS
@@ -554,7 +554,7 @@ export const MOCKED_MODULES: Module[] = [
     new Module(
         'Security', 
         SchoolCategory.ENSEEIHT, 
-        10, 
+        '', 
         '' , 
         [''],
         ModuleCategory.SOFT_SKILL
@@ -566,7 +566,7 @@ export const MOCKED_MODULES: Module[] = [
     new Module(
         'Data and Information Management System', 
         SchoolCategory.UCM, 
-        10, 
+        '', 
         '' , 
         [''],
         ModuleCategory.DATABASE
@@ -575,7 +575,7 @@ export const MOCKED_MODULES: Module[] = [
     new Module(
         'Next-Generation Networks and the Internet', 
         SchoolCategory.UCM, 
-        10, 
+        '', 
         '' , 
         [''],
         ModuleCategory.NETWORKING
@@ -584,7 +584,7 @@ export const MOCKED_MODULES: Module[] = [
     new Module(
         'Software Project Management', 
         SchoolCategory.UCM, 
-        10, 
+        '', 
         '' , 
         [''],
         ModuleCategory.MANAGEMENT
@@ -593,7 +593,7 @@ export const MOCKED_MODULES: Module[] = [
     new Module(
         'Audit, Quality, and Reliability in Computing', 
         SchoolCategory.UCM, 
-        10, 
+        '', 
         '' , 
         [''],
         ModuleCategory.SOFT_SKILL
@@ -603,7 +603,7 @@ export const MOCKED_MODULES: Module[] = [
     new Module(
         'Swift Programming', 
         SchoolCategory.BOOK, 
-        10, 
+        '', 
         '' , 
         [''],
         ModuleCategory.PROGRAMMING
@@ -612,7 +612,7 @@ export const MOCKED_MODULES: Module[] = [
     new Module(
         'iOS programming', 
         SchoolCategory.BOOK, 
-        10, 
+        '', 
         '' , 
         [''],
         ModuleCategory.PROGRAMMING
@@ -622,7 +622,7 @@ export const MOCKED_MODULES: Module[] = [
     new Module(
         'Angular Crash course', 
         SchoolCategory.ONLINE, 
-        10, 
+        '', 
         '' , 
         [''],
         ModuleCategory.WEB
@@ -631,7 +631,7 @@ export const MOCKED_MODULES: Module[] = [
     new Module(
         'MEAN Stack', 
         SchoolCategory.ONLINE, 
-        10, 
+        '', 
         '' , 
         [''],
         ModuleCategory.WEB
@@ -640,7 +640,7 @@ export const MOCKED_MODULES: Module[] = [
     new Module(
         'Devops with gitlab-ci', 
         SchoolCategory.ONLINE, 
-        10, 
+        '', 
         '' , 
         [''],
         ModuleCategory.ENGINEERING_TOOLS
@@ -649,7 +649,7 @@ export const MOCKED_MODULES: Module[] = [
     new Module(
         'Jenkins', 
         SchoolCategory.ONLINE, 
-        10, 
+        '', 
         '' , 
         [''],
         ModuleCategory.ENGINEERING_TOOLS
@@ -658,7 +658,7 @@ export const MOCKED_MODULES: Module[] = [
     new Module(
         'Latex', 
         SchoolCategory.ONLINE, 
-        10, 
+        '', 
         '' , 
         [''],
         ModuleCategory.ENGINEERING_TOOLS
@@ -667,7 +667,7 @@ export const MOCKED_MODULES: Module[] = [
     new Module(
         'Git for professionals', 
         SchoolCategory.ONLINE, 
-        10, 
+        '', 
         '' , 
         [''],
         ModuleCategory.ENGINEERING_TOOLS
@@ -676,7 +676,7 @@ export const MOCKED_MODULES: Module[] = [
     new Module(
         'SAAS', 
         SchoolCategory.ONLINE, 
-        10, 
+        '', 
         '' , 
         [''],
         ModuleCategory.WEB
@@ -685,7 +685,7 @@ export const MOCKED_MODULES: Module[] = [
     new Module(
         'TDD using react and react native', 
         SchoolCategory.ONLINE, 
-        10, 
+        '', 
         '' , 
         [''],
         ModuleCategory.PROGRAMMING
@@ -694,7 +694,7 @@ export const MOCKED_MODULES: Module[] = [
     new Module(
         'AWS Training for beginners', 
         SchoolCategory.ONLINE, 
-        10, 
+        '', 
         '' , 
         [''],
         ModuleCategory.ENGINEERING_TOOLS
@@ -703,7 +703,7 @@ export const MOCKED_MODULES: Module[] = [
     new Module(
         'Docker and Kubernetes', 
         SchoolCategory.ONLINE, 
-        10, 
+        '', 
         '' , 
         [''],
         ModuleCategory.ENGINEERING_TOOLS
@@ -712,7 +712,7 @@ export const MOCKED_MODULES: Module[] = [
     new Module(
         'CompTIA network+ full course', 
         SchoolCategory.ONLINE, 
-        10, 
+        '', 
         '' , 
         [''],
         ModuleCategory.NETWORKING
@@ -721,7 +721,7 @@ export const MOCKED_MODULES: Module[] = [
     new Module(
         'Computer networking course', 
         SchoolCategory.ONLINE, 
-        10, 
+        '', 
         '' , 
         [''],
         ModuleCategory.NETWORKING

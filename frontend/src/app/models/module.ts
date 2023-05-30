@@ -3,17 +3,17 @@ import { SchoolCategory } from './schoolCategory';
 
 export class Module {
     title: string;
-    hoursOfStudies: number;
+    timeStudied: string;
     description: string;
     references: string[];
 
     school: SchoolCategory;
     category: ModuleCategory;
   
-    constructor(title: string, school: SchoolCategory, hoursOfStudies: number, description: string, references: string[], category: ModuleCategory) {
+    constructor(title: string, school: SchoolCategory, timeStudied: string, description: string, references: string[], category: ModuleCategory) {
         this.title = title;
         this.school = school;
-        this.hoursOfStudies = hoursOfStudies;
+        this.timeStudied = timeStudied;
         this.description = description;
         this.references = references;
         this.category = category;
