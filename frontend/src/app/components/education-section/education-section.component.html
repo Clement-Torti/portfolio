@@ -1,9 +1,8 @@
-<div class="mainContainer" fxLayout="row" fxLayout.lt-md="column">
-    <div class="modulesContainer" fxFlex.gt-md="50">
+<div class="mainContainer row">
+    <!-- Modules -->
+    <div class="modulesContainer col-md-8 offset-md-2">
      <h1 class="sectionTitle">
-        <b>
-            Modules studied
-        </b>
+        Modules studied
     </h1>
 
     <div class="btn-group" role="group" aria-label="Font Style">
@@ -18,13 +17,12 @@
     </div>
     </div>
   
-    <div class="schoolsContainer" fxFlex.gt-md="50">
+    <!-- Schools -->
+    <div class="schoolsContainer col-md-8 offset-md-2">
         <h1 class="sectionTitle">
-            <b>
-                Schools
-            </b>
+            Schools
          </h1>
          <app-school-card *ngFor="let school of schools; let i = index" [school]="school" [isOdd]="i % 2 === 0"></app-school-card>
-        </div>
+    </div>
   </div>
   

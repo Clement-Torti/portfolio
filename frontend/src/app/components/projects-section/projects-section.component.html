@@ -1,6 +1,6 @@
 <div class="row justify-content-center mainContainer">
-  <h1>Projects</h1>
   <div [class]="selectedProject ? 'col-md-4' : 'col-md-8 row'">
+    <h1>Projects</h1>
     <div [class]="selectedProject ? 'card mb-3' : 'card col-md-3 mb-3 ml-3'" *ngFor="let project of projects" (click)="showProjectDetails(project)">
       <div [class]="selectedProject === project ? 'activeProject' : ''">
         <div class="card-body">

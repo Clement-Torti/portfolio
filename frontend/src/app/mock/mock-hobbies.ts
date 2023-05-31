@@ -4,15 +4,15 @@ import { HobbyCategory } from '../models/hobbyCategory';
 export const MOCKED_HOBBIES: Hobby[] = [
     // Languages
     new Hobby(
-        'Arabic progress after a year, 2022.',
-        'https://youtu.be/XJrkkvR8Wiw',
+        '🇫🇷 🇪🇸 🇬🇧 🇸🇦🇸🇦',
+        '',
         HobbyCategory.LANGUAGES
     ),
+
     new Hobby(
-        'Script of the arabic progress video.',
-        '',
-        HobbyCategory.LANGUAGES,
-        "arabic_script_2022.JPG"
+        'Languages progress, 2023.',
+        'https://youtu.be/7Znv94WrEns',
+        HobbyCategory.LANGUAGES
     ),
     new Hobby(
         'Andalusian festival in Saint-Jean-de-Luz, France.',
@@ -24,11 +24,20 @@ export const MOCKED_HOBBIES: Hobby[] = [
         'https://youtu.be/HnqKHhZ6mNQ',
         HobbyCategory.LANGUAGES
     ),
+
     new Hobby(
-        'Languages progress, 2023.',
-        'https://youtu.be/7Znv94WrEns',
+        'Arabic progress after a year, 2022.',
+        'https://youtu.be/XJrkkvR8Wiw',
         HobbyCategory.LANGUAGES
     ),
+    new Hobby(
+        'Script of the arabic progress video.',
+        '',
+        HobbyCategory.LANGUAGES,
+        "arabic_script_2022.JPG"
+    ),
+
+
     new Hobby(
         'Arabic conference in the institute of the arab world, Paris, France.',
         '',
@@ -204,6 +213,61 @@ export const MOCKED_HOBBIES: Hobby[] = [
         'https://youtu.be/Pu_kJaMa3ZM',
         HobbyCategory.GUITARE
     ),
+
+    // TECH
+    new Hobby(
+        'MKBHD: Tech reviews, smartphone coverage, and in-depth analysis of the latest gadgets.',
+        'https://www.youtube.com/@mkbhd',
+        HobbyCategory.TECH
+    ),
+    new Hobby(
+        'CNET: Tech news, product reviews, and helpful guides for consumer electronics.',
+        'https://www.youtube.com/@CNET',
+        HobbyCategory.TECH
+    ),
+    new Hobby(
+        'MaxTech: Detailed tech reviews, comparisons, and buying advice for a wide range of apple products.',
+        'https://www.youtube.com/@MaxTechOfficial',
+        HobbyCategory.TECH
+    ),
+    new Hobby(
+        'Dave2d: Unbiased tech reviews, laptop recommendations, and gaming hardware analysis.',
+        'https://www.youtube.com/@Dave2D',
+        HobbyCategory.TECH
+    ),
+    new Hobby(
+        'Lew later: Tech news, smartphone unboxings, and discussions on the latest tech trends.',
+        'https://www.youtube.com/@Lewlater',
+        HobbyCategory.TECH
+    ),
+    new Hobby(
+        'Friday checkout: Product reviews, tech deals, and recommendations for various consumer electronics.',
+        'https://www.youtube.com/@TheFridayCheckout',
+        HobbyCategory.TECH
+    ),
+    new Hobby(
+        'ThrillSeeker: VR gaming, virtual reality technology, and immersive experiences in the world of gaming.',
+        'https://www.youtube.com/@ThrillSeekerVR',
+        HobbyCategory.TECH
+    ),
+    new Hobby(
+        'NateGentile: Tech tutorials, programming guides, and software development tips and tricks.',
+        'https://www.youtube.com/@NateGentile7',
+        HobbyCategory.TECH
+    ),
+    new Hobby(
+        'DotCSV: Data science, machine learning, and AI tutorials with practical examples and coding demos.',
+        'https://www.youtube.com/@DotCSV',
+        HobbyCategory.TECH
+    ),
+    new Hobby(
+        'Fireship: Web development tutorials, JavaScript frameworks, and coding techniques for modern web applications.',
+        'https://www.youtube.com/@Fireship',
+        HobbyCategory.TECH
+    ),
+
+
+    
 
 
     

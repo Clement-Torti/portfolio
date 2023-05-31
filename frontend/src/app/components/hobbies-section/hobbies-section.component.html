@@ -1,4 +1,5 @@
-<div class="mainContainer">
+<div class="mainContainer row">
+    <h1 class="col-md-8 offset-md-2">Hobbies</h1>
     <div class="btn-group col-md-8 offset-md-2" role="group" aria-label="Font Style">
         <button type="button" class="btn btn-primary btn-block" *ngFor="let category of hobbyCategoryValues()" [value]="category" [class.active]="selectedCategory === category" (click)="onCategoryChange(category)">
             {{ category }}

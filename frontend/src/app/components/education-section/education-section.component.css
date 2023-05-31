@@ -2,20 +2,6 @@
     padding-top: 100px;
 }
 
-.modulesContainer {
-    display: flex;
-    flex-direction: column;
-    margin-right: 30px;
-}
-
 .schoolsContainer {
-}
-
-.sectionTitle {
-    font-size: 30px;
-    color: black;
-}
-
-.moduleCard {
-    margin-top: 20px;
+    margin-top: 100px;
 }
