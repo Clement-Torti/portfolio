@@ -7,7 +7,7 @@ export class Hobby {
 
     category: HobbyCategory;
 
-    constructor(text: string, videoLink: string, category: HobbyCategory, imageLink: string = '') {
+    constructor(text: string, videoLink: string, category: HobbyCategory, imageLink = '') {
         this.text = text;
         this.videoLink = videoLink;
         this.category = category;

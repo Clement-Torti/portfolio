@@ -4,12 +4,6 @@ import { HobbyCategory } from '../models/hobbyCategory';
 export const MOCKED_HOBBIES: Hobby[] = [
     // Languages
     new Hobby(
-        '🇫🇷 🇪🇸 🇬🇧 🇸🇦🇸🇦',
-        '',
-        HobbyCategory.LANGUAGES
-    ),
-
-    new Hobby(
         'Languages progress, 2023.',
         'https://youtu.be/7Znv94WrEns',
         HobbyCategory.LANGUAGES

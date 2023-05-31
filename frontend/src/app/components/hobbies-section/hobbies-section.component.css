@@ -2,6 +2,14 @@
     padding-top: 100px;
 }
 
-.hobbyCard {
-    margin-top: 30px;
+.customCarousel {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+
 }
+
+.hobbyElement {
+    padding: 20px;
+}
+
