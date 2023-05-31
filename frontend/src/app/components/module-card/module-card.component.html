@@ -12,10 +12,12 @@
     </div>
     <div class="card-body">
         {{ module.description }}
-        <hr>
-        References: <br>
-        <div *ngFor="let ref of module.references">
-            {{ ref }}
+        <div *ngIf="module.references.length > 0" class="references">
+            <hr>
+            References: <br>
+            <div *ngFor="let ref of module.references">
+                {{ ref }}
+            </div>
         </div>
     </div>
 </div>
