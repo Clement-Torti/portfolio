@@ -4,7 +4,6 @@
 
 .job-card {
     border-left: 4px solid #000;
-    padding-left: 15px;
 }
 
 .company-image {
@@ -13,6 +12,12 @@
     border-radius: 10px;
     margin-left: 20px;
 }
+.company-image-top {
+    max-height: 150px;
+    object-fit: cover;
+}
+
+
 
 .job-card-container {
     display: flex;

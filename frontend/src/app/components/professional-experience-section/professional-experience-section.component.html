@@ -4,7 +4,9 @@
 
     <div class="col-md-8 offset-md-2" *ngFor="let job of jobs">
       <div class="mb-4 job-card-container">
-        <div class="job-card card col-md-8">
+        <div class="job-card card col-lg-8 col-12">
+          <img [src]="job.imagePath" class="card-img-top company-image-top d-lg-none" alt="Company 1">
+
           <div class="card-body job-card-content">
             <div class="row">
               <div class="col-md-6">
@@ -23,7 +25,7 @@
             </ul>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 d-none d-lg-block">
           <img [src]="job.imagePath" class="card-img company-image" alt="Company 1">
         </div>
       </div>

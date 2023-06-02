@@ -6,13 +6,8 @@
         </button>
     </div>
 
-    
-    <!-- <div class="hobbyCard col-md-6 offset-md-3" *ngFor="let hobby of filteredHobbies">
-        <app-hobby-card  [hobby]="hobby"></app-hobby-card>
-    </div> -->
-
     <div class="customCarousel col-md-8 offset-md-2">   
-        <div *ngFor="let hobby of filteredHobbies" class="col-md-5 hobbyElement">
+        <div *ngFor="let hobby of filteredHobbies" class="col-md-6 col-sm-12 col-12 hobbyElement">
             <app-hobby-card  [hobby]="hobby"></app-hobby-card>
         </div>
     </div>
