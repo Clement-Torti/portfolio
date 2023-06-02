@@ -11,7 +11,7 @@ export const MOCKED_SCHOOLS: School[] = [
     new School('INP ENSEEIHT', 
     '2020-2023', 
     'Toulouse, France',
-    'ENSEEIHT Toulouse offers a prestigious engineering program in computer science through alternating work-study. Located in Toulouse, France, the program combines theoretical knowledge with practical experience. Students develop technical skills in software development, algorithms, AI, and data analysis. Hands-on projects and internships provide real-world application. ENSEEIHT Toulouse prepares future engineers for success in the dynamic field of IT.', 
+    'Recognized as the 2nd best computer science engineering school in France, ENSEEIHT Toulouse offers a prestigious engineering program in computer science through alternating work-study. Located in Toulouse, France, the program combines theoretical knowledge with practical experience. Students develop technical skills in software development, algorithms, AI, and data analysis. Hands-on projects and internships provide real-world application. ENSEEIHT Toulouse prepares future engineers for success in the dynamic field of IT.', 
     'https://www.enseeiht.fr/fr/index.html', 
     'assets/images/enseeiht.jpg'),
 

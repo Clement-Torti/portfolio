@@ -1,15 +1,17 @@
 <div *ngIf="school" class="schoolMainContainer">
-    <img *ngIf="isOdd" class="schoolPicture" data-id="schoolPicture" [src]="school.imagePath"  alt="School Picture">
-    
-    <div [class]="isOdd ? 'schoolInfoContainerOdd' : 'schoolInfoContainerPar'">
-        <h3 class="titleLabel"> {{ school.title }} </h3>
-        <h5 class="yearsLabel">
-          {{ school.years }}, {{ school.location }}
-        </h5>
-        <a [href]="school.link" >{{ school.link }}</a>
-        <p class="descriptionLabel"> {{ school.description }} </p>
-    </div>
+  <img *ngIf="isOdd" class="schoolPicture d-none d-lg-block" data-id="schoolPicture" [src]="school.imagePath"  alt="School Picture">
+  
+  
+  <div [class]="isOdd ? 'schoolInfoContainerOdd' : 'schoolInfoContainerPar'">
+    <img class="schoolPictureTop d-md-block d-lg-none" data-id="schoolPicture" [src]="school.imagePath" alt="School Picture">
+      <h3 class="titleLabel"> {{ school.title }} </h3>
+      <h5 class="yearsLabel">
+        {{ school.years }}, {{ school.location }}
+      </h5>
+      <a [href]="school.link" >{{ school.link }}</a>
+      <p class="descriptionLabel"> {{ school.description }} </p>
+  </div>
 
-    <img *ngIf="!isOdd" class="schoolPicture" data-id="schoolPicture" [src]="school.imagePath"  alt="School Picture">
+  <img *ngIf="!isOdd" class="schoolPicture d-none d-lg-block" data-id="schoolPicture" [src]="school.imagePath"  alt="School Picture">
 
 </div>

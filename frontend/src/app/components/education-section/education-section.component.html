@@ -13,20 +13,14 @@
             Modules studied
         </h1>
 
-        <div class="btn-group col-md-12" role="group" aria-label="Font Style">
-            <button type="button" class="btn btn-primary-custom" *ngFor="let category of moduleCategoryValues()" [value]="category" (click)="onCategoryChange(category)">
-                {{ category }}
+        <div class="btn-group row" role="group" aria-label="Font Style">
+            <button type="button" class="btn btn-primary-custom col-lg-1 col-md-2 col-sm-3 col-6" *ngFor="let category of moduleCategoryValues()" [value]="category" (click)="onCategoryChange(category)">
+              {{ category }}
             </button>
         </div>
         
-
-        <!-- <div class="moduleCard" *ngFor="let module of filteredModules">
-            <app-module-card  [module]="module"></app-module-card>
-        </div> -->
-
-        
     <div class="customCarousel col-md-12">   
-        <div *ngFor="let module of filteredModules" class="col-md-6 moduleElement">
+        <div *ngFor="let module of filteredModules" class="col-md-6 col-sm-12 col-12 moduleElement">
             <app-module-card  [module]="module"></app-module-card>
         </div>
     </div>
