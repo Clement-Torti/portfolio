@@ -63,7 +63,7 @@ export const MOCKED_PROJECTS: Project[] = [
     ],
     'https://github.com/Clement-Torti/site-news',
     '',
-    'artiklator',
+    'artiklator.pdf',
     [ProjectCategory.WEB]
     ),
     
