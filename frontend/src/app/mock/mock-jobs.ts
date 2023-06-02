@@ -7,8 +7,10 @@ export const MOCKED_JOBS: Job[] = [
         'Developer/Tester',
         'IT company providing connectivity solutions to the healthcare industry. In charge of the design, development and execution of automated test scripts for electronic boards and web applications. Final year project on the development of a web application for test script generation. Fullstack development based on a MEAN architecture.',
         [
-            'Développement d\'une application web de gestion de projet',
-            'Développement d\'une application web de gestion de projet',
+            'Writing electronic board integration test scripts in Python',
+            'Writing Cypress web tests',
+            'Test acceptance, bug reporting and documentation following a V cycle',
+            'Development of a web application for writing python test scripts',
         ],
         'assets/images/edevice.jpeg'
     ),
@@ -18,8 +20,8 @@ export const MOCKED_JOBS: Job[] = [
         'Fullstack Developer',
         'Renamed GlobalLogic, a London-based digital transformation service company. Team development of a web application used internally to perform peer reviews. Fullstack development based on a MERN architecture. Discovery of devops tools and communication training in English.',
         [
-            'Développement d\'une application web de gestion de projet',
-            'Développement d\'une application web de gestion de projet',
+            'Development of a fullStack web app from scratch according to DevOps principles ',
+            "Technological watch for the project's new recruits, professional training, and client presentation in English."
         ],
         'assets/images/ecs-digital.png'
     ),
@@ -29,8 +31,8 @@ export const MOCKED_JOBS: Job[] = [
         'Mobile Developer',
         'Medical software company. In charge of the development of the mobile version of HurryCan, a web application for patient-doctor messaging. IOS development in swift within an agile team.',
         [
-            'Développement d\'une application web de gestion de projet',
-            'Développement d\'une application web de gestion de projet',
+            'Development of a mobile application based on an existing web application',
+            'Integration into an agile team',
         ],
         'assets/images/yansys.jpeg'
     ),
