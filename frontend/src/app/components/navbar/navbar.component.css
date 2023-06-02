@@ -14,5 +14,11 @@
   color: white;
 
   z-index: 10;
+  animation-name: appear;
+  animation-duration: 1s;
 
+}
+@keyframes appear {
+  from {top: -200px;}
+  to {top: 60px;}
 }
