@@ -13,7 +13,7 @@
             Modules studied
         </h1>
 
-        <div class="btn-group" role="group" aria-label="Font Style">
+        <div class="btn-group col-md-12" role="group" aria-label="Font Style">
             <button type="button" class="btn btn-primary-custom" *ngFor="let category of moduleCategoryValues()" [value]="category" (click)="onCategoryChange(category)">
                 {{ category }}
             </button>
