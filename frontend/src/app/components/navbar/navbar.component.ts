@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
+
 
 @Component({
   selector: 'app-navbar',
@@ -6,6 +8,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent {
-  name = 'Angular';
-  public isCollapsed = true;
+  public isCollapsed = false;
+
+  constructor(private router: Router) { }
+
+  toogleCollapse() {    
+    this.isCollapsed = !this.isCollapsed;
+  }
 }
