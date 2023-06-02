@@ -211,52 +211,52 @@ export const MOCKED_HOBBIES: Hobby[] = [
     // TECH
     new Hobby(
         'MKBHD: Tech reviews, smartphone coverage, and in-depth analysis of the latest gadgets.',
-        'https://www.youtube.com/@mkbhd',
+        'https://www.youtube.com/watch?v=8om1eJrO2lU',
         HobbyCategory.TECH
     ),
     new Hobby(
         'CNET: Tech news, product reviews, and helpful guides for consumer electronics.',
-        'https://www.youtube.com/@CNET',
+        'https://www.youtube.com/watch?v=uKkCWmz8SW8',
         HobbyCategory.TECH
     ),
     new Hobby(
         'MaxTech: Detailed tech reviews, comparisons, and buying advice for a wide range of apple products.',
-        'https://www.youtube.com/@MaxTechOfficial',
+        'youtube.com/watch?v=Xzo7_2o_218',
         HobbyCategory.TECH
     ),
     new Hobby(
         'Dave2d: Unbiased tech reviews, laptop recommendations, and gaming hardware analysis.',
-        'https://www.youtube.com/@Dave2D',
+        'https://www.youtube.com/watch?v=C6VuSPPkTeY',
         HobbyCategory.TECH
     ),
     new Hobby(
         'Lew later: Tech news, smartphone unboxings, and discussions on the latest tech trends.',
-        'https://www.youtube.com/@Lewlater',
+        'https://www.youtube.com/watch?v=D3y2h-LhCKw',
         HobbyCategory.TECH
     ),
     new Hobby(
         'Friday checkout: Product reviews, tech deals, and recommendations for various consumer electronics.',
-        'https://www.youtube.com/@TheFridayCheckout',
+        'https://www.youtube.com/watch?v=mM-e-VHc47s',
         HobbyCategory.TECH
     ),
     new Hobby(
         'ThrillSeeker: VR gaming, virtual reality technology, and immersive experiences in the world of gaming.',
-        'https://www.youtube.com/@ThrillSeekerVR',
+        'https://www.youtube.com/watch?v=jID3QptLJz4',
         HobbyCategory.TECH
     ),
     new Hobby(
         'NateGentile: Tech tutorials, programming guides, and software development tips and tricks.',
-        'https://www.youtube.com/@NateGentile7',
+        'https://www.youtube.com/watch?v=Th8YtKq4LRg',
         HobbyCategory.TECH
     ),
     new Hobby(
         'DotCSV: Data science, machine learning, and AI tutorials with practical examples and coding demos.',
-        'https://www.youtube.com/@DotCSV',
+        'https://www.youtube.com/watch?v=PtR3MI89bK4',
         HobbyCategory.TECH
     ),
     new Hobby(
         'Fireship: Web development tutorials, JavaScript frameworks, and coding techniques for modern web applications.',
-        'https://www.youtube.com/@Fireship',
+        'https://www.youtube.com/watch?v=q1fsBWLpYW4',
         HobbyCategory.TECH
     ),
 
