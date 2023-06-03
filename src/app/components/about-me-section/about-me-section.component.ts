@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./about-me-section.component.css']
 })
 export class AboutMeSectionComponent {
-  cvPath = 'assets/images/CV_English.jpeg';
+  cvPath = 'assets/images/CV_English.jpg';
 }
