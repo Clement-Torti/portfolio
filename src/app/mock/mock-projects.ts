@@ -316,5 +316,31 @@ export const MOCKED_PROJECTS: Project[] = [
     [ProjectCategory.WEB]
     ),
 
+        // PORTFOLIO
+        new Project('PORTFOLIO ONLINE', 
+        'You are currently viewing the online portfolio that has been developed using Angular. It is a single page application that allows the user to navigate between different sections. The content of the sections is dynamically generated from a typescript files. The site is responsive and can be viewed on mobile devices. Deployed on Github pages.',
+        'Personal project',
+        '2023 - 1 month',
+        'Developer',
+        '',
+        [
+            'Clément Torti', 
+        ],
+        ['Angular', 'Typescript' , 'HTML', 'CSS', ],
+        [
+            'Bootstrap', 'Github copilot', 'balsamiq mockup', 'VSCode', 'Git', 'Github pages', 'ParticleJS'
+        ],
+        [
+            'Responsive design using Bootstrap.',
+            'Time restricted project.',
+            'Using third party libraries like ParticleJS.',
+            'Continuous integration with Github pages.' 
+        ],
+        'https://github.com/Clement-Torti/portfolio',
+        '',
+        'portfolio_mockup.pdf',
+        [ProjectCategory.WEB]
+        ),
+
 ]
 

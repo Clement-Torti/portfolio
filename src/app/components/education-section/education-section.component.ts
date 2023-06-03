@@ -11,7 +11,7 @@ import { ModuleCategory } from 'src/app/models/moduleCategory';
 })
 export class EducationSectionComponent {
   modules: Module[] = MOCKED_MODULES;
-  filteredModules: Module[] = [];
+  filteredModules: Module[] = this.modules.filter(module => module.category === ModuleCategory.PROGRAMMING);;
   schools = MOCKED_SCHOOLS;
 
   moduleCategoryValues() {

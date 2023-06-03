@@ -7,10 +7,10 @@ export const MOCKED_JOBS: Job[] = [
         'Developer/Tester',
         'IT company providing connectivity solutions to the healthcare industry. In charge of the design, development and execution of automated test scripts for electronic boards and web applications. Final year project on the development of a web application for test script generation. Fullstack development based on a MEAN architecture.',
         [
+            'Development of a modern web application using MEAN architecture for writing python test scripts',
             'Writing electronic board integration test scripts in Python',
             'Writing Cypress web tests',
             'Test acceptance, bug reporting and documentation following a V cycle',
-            'Development of a web application for writing python test scripts',
         ],
         'assets/images/edevice.jpeg'
     ),
