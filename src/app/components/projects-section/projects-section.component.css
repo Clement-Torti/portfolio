@@ -2,6 +2,21 @@
     padding-top: 100px;
 }
 
-.activeProject {
+.project {
+    aspect-ratio: 10/8;
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);  
+}
+  
+.project:hover {
+    transform: scale(1.1);
     background-color: rgba(230, 230, 230, 0.8);
+    z-index: 2;
+}
+
+.activeProject {
+    aspect-ratio: 10/8;
+    background-color: rgba(230, 230, 230, 0.8);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);  
 }

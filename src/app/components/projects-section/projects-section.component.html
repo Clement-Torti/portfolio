@@ -1,15 +1,19 @@
 <div class="row justify-content-center mainContainer">
-  <div class="col-md-8 row mb-3">
-    <h1>Projects</h1>
+  <div class="col-md-10 row mb-3">
+    <h1 class="text-center">Projects</h1>
 
     <!-- Project Card  -->
-    <div class="projectContainer"></div>
-    <div [class]="selectedProject === project ? 'activeProject card col-lg-3 col-md-6 col-sm-6 mb-1 mr-1' : 'card col-lg-3 col-md-6 col-sm-6 mb-1 mr-1'" *ngFor="let project of projects" (click)="showProjectDetails(project)">
+    <div *ngFor="let project of projects"  class="col-lg-4 col-md-6 col-sm-6" (click)="showProjectDetails(project)">
       <a class="nav-link" href="#projectDetails">
-      <div >
-        <div class="card-body">
-          <h5 class="card-title">{{ project.title }}</h5>
-          <p class="card-text">{{ project.languages.join(' ')}}</p>
+      <div class="p-3" >
+        <div [class]="selectedProject === project ? 'activeProject card' : 'project card'">
+          <img class="card-img-top" src="..." alt="Card image cap">
+          <div class="card-body text-center">
+            <h5 class="card-title">{{ project.title }}</h5>
+            <p class="card-text">{{ project.languages.join(' ')}}</p>
+            <hr />
+            <p> {{project.description}}</p>
+          </div>
         </div>
       </div>
       </a>

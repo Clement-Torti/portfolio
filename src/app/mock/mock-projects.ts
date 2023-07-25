@@ -127,7 +127,7 @@ export const MOCKED_PROJECTS: Project[] = [
         'Mathematics of the trajectories related to the Pad.'
     ],
     'https://github.com/Clement-Torti/ollie-remote',
-    '',
+    'https://youtu.be/rI1cPQIrvO8',
     'ollie_report.pdf',
     [ProjectCategory.MOBILE]
     ),

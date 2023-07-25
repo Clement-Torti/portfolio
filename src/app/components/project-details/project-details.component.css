@@ -1,5 +1,5 @@
 .videoPlayer {
-    height: 300px;
+    aspect-ratio: 16/9;
 }
 
 .projectResumeCard {
