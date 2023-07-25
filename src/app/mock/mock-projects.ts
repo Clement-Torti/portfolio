@@ -5,6 +5,7 @@ export const MOCKED_PROJECTS: Project[] = [
     // LIBRARY MANAGEMENT
     new Project('LIBRARY MANAGEMENT', 
     'Console application to manage books in a fictional library. CRUD functionality for books of different genres. CRUD functionality for readers. Management of loans, late returns, and searches by genre and author. Use of data persistence.',
+    'Fictional library console app with CRUD for books and readers, managing loans, and searches by genre and author, using data persistence.',
     'IUT Clermont-Ferrand',
     '2017 - 2 months',
     'Lead developer',
@@ -27,6 +28,7 @@ export const MOCKED_PROJECTS: Project[] = [
     // TOURNAMENT TREES
     new Project('TOURNAMENT TREES',
     'This application is a multi-sport direct elimination tournament manager designed for team tournaments, add participants, enter scores as they occur to determine a winner, and organizers. It allows to create individual or print the tournament tree.',
+    'Tournament manager for team events, adding participants, recording live scores, and organizing tournaments with printable brackets.',
     'IUT Clermont-Ferrand',
     '2018 - 2 months',
     'Developer',
@@ -47,6 +49,7 @@ export const MOCKED_PROJECTS: Project[] = [
     // ARTIKLATOR
     new Project('ARTIKLATOR', 
     'This is a website that aggregates news from multiple news sites by reading their RSS feeds. This site allows all visitors to access the content. Users logged in as administrators can modify the referenced sites.',
+    'News aggregator website reads RSS feeds from various sources. Public access for all, admin access for site modification.',
     'IUT Clermont-Ferrand',
     '2018 - 2 months',
     'Lead developer',
@@ -70,6 +73,7 @@ export const MOCKED_PROJECTS: Project[] = [
     // SPEED TYPING
     new Project('SPEED TYPING', 
     "This is an Android mobile game to test a person's typing speed. Words appear and gradually descend, increasing in speed. The game offers a persistent high score system and allows to take a photo of the winner.",
+    'Android game tests typing speed with descending words, accelerating pace. Features high score system and winner\'s photo capture.',
     'IUT Clermont-Ferrand',
     '2019 - 2 months',
     'Lead developer',
@@ -92,6 +96,7 @@ export const MOCKED_PROJECTS: Project[] = [
     // BATTLESHIP
     new Project('BATTLESHIP', 
     "This program aims to recreate the game \"Battleship\". One player faces an artificial intelligence whose difficulty level can be chosen. At the end of the game, the player's score is recorded if they win and will be visible on the scores table on the home page.",
+    '"Battleship" game recreation with AI opponent. Adjustable difficulty level, records scores for wins, displayed on home page leaderboard.',
     'IUT Clermont-Ferrand',
     '2019 - 2 months',
     'Lead developer',
@@ -114,6 +119,7 @@ export const MOCKED_PROJECTS: Project[] = [
     // OLLIE REMOTE
     new Project('OLLIE REMOTE', 
     'This is an application that allows the user to control the Ollie robot in different ways, using either Joystick or Pad mode. The Pad mode allows the user to draw a trajectory that the Ollie will follow.',
+    'App to control Ollie robot using Joystick or Pad mode. Pad mode enables drawing trajectories for Ollie to follow.',
     'IUT Clermont-Ferrand',
     '2019 - 2 months',
     'Lead developer',
@@ -135,6 +141,7 @@ export const MOCKED_PROJECTS: Project[] = [
     // BOOK7
     new Project('BOOK7', 
     'This application was designed for students of ENSEEIHT. It is a digital notebook manager that simulates a handwritten notebook while offering the flexibility of digital tools. It allows the inclusion of code, PDFs, and images, as well as the separation of the notebook into lectures, tutorials, and practical work, and the organization of notebooks into modules.',
+    'ENSEEIHT student\'s digital notebook manager with handwritten simulation, code, PDFs, images, and organization by lectures, tutorials, and practical work.',
     'ENSEEIHT, Toulouse INP',
     '2021 - 3 months',
     'Product Owner / Scrum master',
@@ -161,6 +168,7 @@ export const MOCKED_PROJECTS: Project[] = [
     // GENEALOGICAL TREE 
     new Project('GENEALOGICAL TREE', 
     'This is a console application that allows the user to create and modify a genealogical tree.',
+    'Console application that allows the user to create and modify a genealogical tree.',
     'ENSEEIHT, Toulouse INP',
     '2021 - 1 month',
     'Developer',
@@ -183,6 +191,7 @@ export const MOCKED_PROJECTS: Project[] = [
     // WHITEBOARD
     new Project('WHITEBOARD', 
     'This is a website that contains an editable canvas/board that can be shared live between multiple users.',
+    'Website presenting an editable canvas/board that can be shared live between multiple users.',
     'ENSEEIHT, Toulouse INP',
     '2022 - 2 months',
     'Lead developer',
@@ -205,6 +214,7 @@ export const MOCKED_PROJECTS: Project[] = [
     // HURRY-CAN
     new Project('HURRY-CAN', 
     'A mobile application for transmitting medical documents or sensitive data to third parties who are not equipped with MS-Santé messaging. This application allows doctors to correspond with their patients or clients in a controlled manner.',
+    'Mobile app for secure medical document transmission to non-MS-Santé users. Enables controlled doctor-patient correspondence.',
     'Yansys company',
     '2018 - 2 months',
     'Mobile developer',
@@ -234,6 +244,7 @@ export const MOCKED_PROJECTS: Project[] = [
     // FEEDBACK TOOL
     new Project('FEEDBACK TOOL', 
     'Full-stack web application used for peer evaluation within the company. Every 6 months, ECS employees are invited to answer questions about other employees in the company. This helps the hierarchical manager understand to what extent each employee adheres to DevOps practices. This tool automates this process. Employees are also able to leave feedback on other employees at any time.',
+    'Full-stack web app automates peer evaluation for ECS employees. Supports DevOps adherence assessment and continuous feedback.',
     'ECS Digital Company',
     '2019 - 3 months',
     'Fullstack dev',
@@ -259,6 +270,7 @@ export const MOCKED_PROJECTS: Project[] = [
     // HGOMICRO / ETESTER
     new Project('HGOMICRO / ETESTER', 
     'Integration tests of the HGoMicro electronic board and its medical peripherals performed using Python scripts. The HGoMicro is a data transfer hub provided by medical peripherals to dedicated servers. In-house development of a tool called eTester to automate script writing without having to write code.',
+    'Python tests for HGoMicro medical hub, using homemade eTester to automate script writing without coding.',
     'eDevice Company',
     '2020-2023',
     'Developer/Tester',
@@ -289,6 +301,7 @@ export const MOCKED_PROJECTS: Project[] = [
     // TWOCAN
     new Project('TWOCAN', 
     'A variant of the HGoMicro with an integrated algorithm for detecting dangerous medical measurements. Provides an online platform for doctors to access data. Responsible for front-end integration testing.',
+    'HGoMicro variant with integrated dangerous medical measurement detection. Front-end integration testing for online doctor platform.',
     'eDevice Company',
     '2020-2023',
     'Developer/Tester',
@@ -319,6 +332,7 @@ export const MOCKED_PROJECTS: Project[] = [
         // PORTFOLIO
         new Project('PORTFOLIO ONLINE', 
         'You are currently viewing the online portfolio that has been developed using Angular. It is a single page application that allows the user to navigate between different sections. The content of the sections is dynamically generated from a typescript files. The site is responsive and can be viewed on mobile devices. Deployed on Github pages.',
+        'Angular-based online portfolio: single-page, dynamic content, mobile-responsive, deployed on GitHub Pages.',
         'Personal project',
         '2023 - 1 month',
         'Developer',

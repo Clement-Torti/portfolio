@@ -3,7 +3,8 @@ import { ProjectCategory } from "./projectCategory";
 export class Project {
     title: string;
     description: string;
-    entity: String;
+    shortDescription: string;
+    entity: string;
     date: string;
     role: string;
     teamDescription: string | null;
@@ -19,8 +20,9 @@ export class Project {
 
 
     constructor(title: string, 
-        description: string, 
-        entity: String, 
+        description: string,
+        shortDescription: string,
+        entity: string, 
         date: string, 
         role: string, 
         teamDescription: string | null, 
@@ -34,6 +36,7 @@ export class Project {
         projectCategories: ProjectCategory[]) {
         this.title = title;
         this.description = description;
+        this.shortDescription = shortDescription;
         this.entity = entity;
         this.date = date;
         this.role = role;
