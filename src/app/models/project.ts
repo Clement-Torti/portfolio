@@ -2,6 +2,7 @@ import { ProjectCategory } from "./projectCategory";
 
 export class Project {
     title: string;
+    icon: string;
     description: string;
     shortDescription: string;
     entity: string;
@@ -20,6 +21,7 @@ export class Project {
 
 
     constructor(title: string, 
+        icon: string,
         description: string,
         shortDescription: string,
         entity: string, 
@@ -35,6 +37,7 @@ export class Project {
         reportPath: string | null, 
         projectCategories: ProjectCategory[]) {
         this.title = title;
+        this.icon = icon;
         this.description = description;
         this.shortDescription = shortDescription;
         this.entity = entity;
