@@ -4,7 +4,8 @@
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">{{ project.title }} ({{ project.projectCategories.join(", ")}})</h5>
-            <lib-ytplayer class="videoPlayer" *ngIf="project.videoLink" [videoId]="extractVideoId(project.videoLink)!"></lib-ytplayer>
+            <youtube-player class="videoPlayer" *ngIf="project.videoLink" [videoId]="extractVideoId(project.videoLink)!">
+            </youtube-player>
             <br />
             <p class="card-text">{{ project.description }}</p>
             <hr>

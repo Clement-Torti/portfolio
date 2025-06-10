@@ -19,9 +19,9 @@ import { ProjectsSectionComponent } from './components/projects-section/projects
 import { ModuleCardComponent } from './components/module-card/module-card.component';
 import { SchoolCardComponent } from './components/school-card/school-card.component';
 import { ProjectDetailsComponent } from './components/project-details/project-details.component';
-import { YTPlayerModule } from 'angular-youtube-player';
 import { HobbyCardComponent } from './components/hobby-card/hobby-card.component';
 import { ParticleComponent } from './components/particle/particle.component';
+import { YoutubePlayerComponent } from './components/youtube-player/youtube-player.component';
 
 @NgModule({
   declarations: [AppComponent, 
@@ -37,7 +37,8 @@ import { ParticleComponent } from './components/particle/particle.component';
     SchoolCardComponent,
     ProjectDetailsComponent,
     HobbyCardComponent,
-    ParticleComponent
+    ParticleComponent,
+    YoutubePlayerComponent
     ],
   imports: [BrowserModule, 
     AppRoutingModule, 
@@ -46,7 +47,6 @@ import { ParticleComponent } from './components/particle/particle.component';
     CommonModule, 
     FlexLayoutModule, 
     NgxExtendedPdfViewerModule,
-    YTPlayerModule,
     ],
   providers: [],
   bootstrap: [AppComponent],

@@ -3,7 +3,8 @@
        {{ hobby.text }}
     </div>
     <div class="card-body">
-        <lib-ytplayer class="videoPlayer" *ngIf="hobby.videoLink" [videoId]="extractVideoId(hobby.videoLink)!"></lib-ytplayer>
+        <youtube-player class="videoPlayer" *ngIf="hobby.videoLink" [videoId]="extractVideoId(hobby.videoLink)!">
+        </youtube-player>
         <img *ngIf="hobby.imageLink" class="img-fluid" [src]="'assets/images/hobbies/' + hobby.imageLink" alt="Card image cap">
     </div>
 </div>
