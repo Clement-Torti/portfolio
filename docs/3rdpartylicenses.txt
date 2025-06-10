@@ -44,9 +44,6 @@ MIT
 @angular/router
 MIT
 
-angular-youtube-player
-MIT
-
 bootstrap
 MIT
 The MIT License (MIT)
