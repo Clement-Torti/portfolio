@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AboutMeSectionComponent {
   cvPath = 'assets/images/CV_English.jpg';
+
+  currentAge: number = 0;
+  private birthYear: number = 1999;
+
+  ngOnInit(): void {
+    this.currentAge = new Date().getFullYear() - this.birthYear;
+  }
 }

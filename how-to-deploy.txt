@@ -1,4 +1,4 @@
-ng build --prod --base-href=/portfolio/
+ng build --configuration production --base-href=/portfolio/
 cp docs/index.html docs/404.html
 git add .
 git commit -m "Update build with correct base href"
