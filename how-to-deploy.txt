@@ -1,2 +1,5 @@
-npm install -g angular-cli-ghpages
-npx angular-cli-ghpages --dir=dist/frontend --branch=main --folder=docs
+ng build --prod --base-href=/portfolio/
+cp docs/index.html docs/404.html
+git add .
+git commit -m "Update build with correct base href"
+git push origin main // If it fails, try running: git config --global http.postBuffer 524288000
